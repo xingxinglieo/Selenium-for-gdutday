@@ -394,8 +394,8 @@
         "signature": "e09979fcd5cf3d51d22dc91cbaf126849fb3d442c00f7c1239af912a9195fba5"
       },
       "./src/core/init.ts": {
-        "version": "6b3d8370a812e12bf532b1caf8659778ee0712cf6c3cb778411b7099074aa6a1",
-        "signature": "ca8dc644ac28d0c8e3874fcca48e3395a3e1ad1885f3bea44699ec0850787b9e"
+        "version": "153103deee6e1d62b051376e1e4e87e151bde8a9644104effe4375614b7e8ce7",
+        "signature": "fea54a43196cf2b9d64ca99c35da3b6b7f8123295a7a40d53187ef916c57d10e"
       },
       "./src/app.ts": {
         "version": "f17d0d30ee75664502d3e32761c2ca103856f53b1d841d092c1e0e4227b1fff6",
@@ -546,8 +546,12 @@
         "signature": "3eecd8691b3172a43ac49e2972208d477b75de6b916abd62f28d98a15738b27f"
       },
       "./src/app/apis/getpayimg.ts": {
-        "version": "e9a1849b279aec723b54709b6b69e297d8e13dcf4f70495f97a7de0ea2fd8739",
-        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
+        "version": "4643fbbc0c86ad24bafcd790501775b6228ef919614d57a8d6ba2f7503bddc5e",
+        "signature": "0990379e1efbc0c6bc399907930b1bdef70541c0969dbb8794d8b9b36c731251"
+      },
+      "./src/app/router.ts": {
+        "version": "22bf4daced05dcf55d945b192ab79aa6bf5b948cbf2c19b2a4ebda027370c42f",
+        "signature": "0ea8309f9a64239710ad3402929397f03ecd75afadf1d6e5db352cec6206e670"
       },
       "./src/typings/best-require/best-require.d.ts": {
         "version": "2879df6545adc107fab5157af66b3b9f3f1d0ec5be70916065475a614f7724f5",
@@ -1785,6 +1789,15 @@
         "./node_modules/@types/koa-router/index.d.ts",
         "./src/app/functions/getpayimg.ts",
         "./src/app/validators/validators.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./src/app/router.ts": [
+        "./node_modules/@types/koa/index.d.ts",
+        "./node_modules/@types/koa-router/index.d.ts",
+        "./src/app/apis/getpayimg.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -3030,6 +3043,12 @@
       "./src/app/validators/validators.ts": [
         "./src/lib/lin-validator-v2.ts"
       ],
+      "./src/app/apis/getpayimg.ts": [
+        "./node_modules/@types/koa-router/index.d.ts"
+      ],
+      "./src/app/router.ts": [
+        "./node_modules/@types/koa/index.d.ts"
+      ],
       "./src/typings/best-require/best-require.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
@@ -3226,6 +3245,7 @@
       "./node_modules/@types/selenium-webdriver/index.d.ts",
       "./node_modules/@types/chromedriver/index.d.ts",
       "./src/app/utils/driver.ts",
+      "./src/app/functions/getpayimg.ts",
       "./node_modules/@types/validator/index.d.ts",
       "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
       "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
@@ -3254,7 +3274,7 @@
       "./node_modules/@types/jsonwebtoken/index.d.ts",
       "./node_modules/@types/sequelize/index.d.ts",
       "./node_modules/@types/tesseract.js/index.d.ts",
-      "./src/app/functions/getpayimg.ts"
+      "./src/app/router.ts"
     ]
   },
   "version": "3.7.5"

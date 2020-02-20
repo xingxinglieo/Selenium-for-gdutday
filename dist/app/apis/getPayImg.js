@@ -4,6 +4,7 @@ const Router = require("koa-router");
 const getPayImg_1 = require("~/app/functions/getPayImg");
 const validators_1 = require("~/app/validators/validators");
 const router = new Router();
+exports.router = router;
 router.post('/functions/getPayImg', async (context) => {
     await new validators_1.AccountValidator().validate(context);
     const { schoolId, password } = context.request.body;
@@ -12,4 +13,3 @@ router.post('/functions/getPayImg', async (context) => {
         src
     };
 });
-module.exports = router;
