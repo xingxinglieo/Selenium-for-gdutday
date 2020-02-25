@@ -5,7 +5,7 @@ interface PayMessage {
     orderId: string
 }
 class GetPayImg extends LoginSchoolNet {
-    months: string;
+    months: string; 
     constructor(public payPramer: GetImgPramer) {
         super(payPramer);
         this.months = payPramer.months.toString();
