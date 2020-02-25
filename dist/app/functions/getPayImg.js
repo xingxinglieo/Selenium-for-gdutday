@@ -1,74 +1,117 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const http_exception_1 = require("~/core/http-exception");
-const driver_1 = require("~/app/utils/driver");
-const url = {
-    LOGIN_URL: 'https://selfmanager.gdut.edu.cn/sso_login',
-    Pay_URL: 'https://selfmanager.gdut.edu.cn/selfRechargeAction'
-};
-async function getCampusNetworkPayQRcode(schoolId, password) {
-    const driver = driver_1.createAutoDestroyDriver(600000);
-    let src = "";
-    try {
-        await login(driver, url.LOGIN_URL, { schoolId, password });
-    }
-    catch (err) {
-        throw new http_exception_1.ParameterException(`登录步骤失败,具体原因:${err.message}`);
-    }
-    try {
-        await toPayPage(driver, url.Pay_URL);
-        src = await getSrc(driver);
-    }
-    catch (_a) {
-        throw new http_exception_1.Forbbiden('无法获取付款图片地址');
-    }
-    await driver.close();
-    return src;
-}
-exports.getCampusNetworkPayQRcode = getCampusNetworkPayQRcode;
-;
-async function login(driver, url, { schoolId = '', password = '' }) {
-    await driver.get(url);
-    await driver.findElement({
-        id: 'username'
-    }).sendKeys(schoolId);
-    await driver.findElement({
-        id: 'password'
-    }).sendKeys(password);
-    await driver.findElement({
-        className: 'auth_login_btn'
-    }).click();
-    const loginUrl = await driver.getCurrentUrl();
-    if (url === loginUrl) {
-        const err = new Error();
-        err.message = '账户密码错误';
-        throw err;
-    }
-}
-exports.login = login;
-async function toPayPage(driver, url) {
-    await driver.get(url);
-    await driver.findElement({
-        id: 'rechargeMonth'
-    }).sendKeys('1');
-    await driver.findElement({
-        css: 'input[value="充值"]'
-    }).click();
-    await driver.findElement({
-        css: 'input[value="确认支付"]'
-    }).click();
-}
-async function getSrc(driver) {
-    let src = "";
-    while (src === "") {
-        try {
-            src = await driver.findElement({
-                id: 'PayImg'
-            }).getAttribute('src');
-        }
-        catch (err) {
-            src = "";
-        }
-    }
-    return src;
-}
+// import { Forbbiden, ParameterException } from '~/core/http-exception'
+// import { createAutoDestroyPage } from '~/app/utils/creatPage'
+// module.exports.handler = (req, resp, context) => {
+//   const {
+//     schoolId,
+//     password
+//   } = req.queries;
+//   quTuoLogin({
+//       schoolId,
+//       password,
+//     })
+//     .then(src => {
+//       // Get screenshot successful return
+//       resp.setStatusCode(200);
+//       resp.send('ok')
+//     })
+//     .catch(err => {
+//       // Get screenshot failed return
+//       resp.setStatusCode(500);
+//       resp.setHeader('content-type', 'text/plain');
+//       resp.send(err.message);
+//     });
+//   async function quTuoLogin({
+//     schoolId,
+//     password
+//   }) {
+//     try {
+//       await login(url.LOGIN, {
+//         schoolId,
+//         password
+//       })
+//     } catch (err) {
+//       err.message = `登录失败,具体原因:${err.message}`;
+//       throw err;
+//     }
+//   };
+//   async function login(url, message) {
+//     const page = await getPage();
+//     await page.goto(url);
+//     await confirmSchool(page);
+//     // await selectSchool(page);
+//     await inputMessage(page, message);
+//   }
+//   async function getPage() {
+//     const browser = await setup.getBrowser(context);
+//     const page = await browser.newPage();
+//     //开启手机模式
+//     await page.setDefaultNavigationTimeout(15000);
+//     await page.emulate(PhoneConfig);
+//     return page;
+//   }
+//   async function selectSchool(page) {
+//     const searchInput = await page.waitForSelector('input[type = "search"]');
+//     await searchInput.type(schoolName, {
+//       delay: 20
+//     });
+//     let text = "";
+//     while (text !== schoolName) {
+//       try {
+//         text = await page.$eval('li', e => (e.innerText).trim());
+//       } catch (err) {}
+//     }
+//     sleep(200);
+//     let li;
+//     do {
+//       li = await page.$('li');
+//       if (li !== null) await li.click();
+//     } while (li !== null)
+//     // await confirmSchool(page);
+//   }
+//   async function confirmSchool(page) {
+//     //confim the selected school
+//     let loginLogo;
+//     do {
+//       loginLogo = await page.$eval('.login-logo', e => (e.innerText).trim());
+//       if (loginLogo === schoolName) break;
+//       else {
+//         const toSearch = await page.waitForSelector('.login-title>a');
+//         await sleep(100);
+//         let i = 20;
+//         while ((await page.$('input[type="password"]') !== null) && i > 0) {
+//           try {
+//             await sleep(30);
+//             await toSearch.click();
+//             i--;
+//           } catch (err) {
+//             break;
+//           }
+//         }
+//         await selectSchool(page);
+//       }
+//     }
+//     while (true)
+//   }
+//   async function inputMessage(page, {
+//     password,
+//     schoolId
+//   }) {
+//     await (await page.waitForSelector('input[type="text"]')).type(schoolId)
+//     await (await page.waitForSelector('input[type="password"]')).type(password)
+//     let button = await page.waitForSelector('button');
+//     let i = 20;
+//     while ((await page.$('input[type="password"]') !== null) && i > 0) {
+//       try {
+//         await sleep(40);
+//         await button.click();
+//         i--;
+//       } catch (err) {
+//         break;
+//       }
+//     }
+//     if (i <= 0) {
+//       throw new Error('账号密码错误');
+//     }
+//   }
+// }

@@ -17,3 +17,10 @@ class AccountValidator extends lin_validator_v2_1.LinValidator {
     }
 }
 exports.AccountValidator = AccountValidator;
+class PayNetValidator extends AccountValidator {
+    constructor() {
+        super(...arguments);
+        this.months = new lin_validator_v2_1.Rule('isInt', '月数应为小于6的数字', { min: 1, max: 6 });
+    }
+}
+exports.PayNetValidator = PayNetValidator;

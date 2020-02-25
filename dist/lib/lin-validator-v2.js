@@ -1,9 +1,4 @@
 "use strict";
-/**
- * Lin-Validator v2
- * 作者：7七月
- * 微信公众号：林间有风
- */
 Object.defineProperty(exports, "__esModule", { value: true });
 const validator = require("validator");
 const http_exception_1 = require("../core/http-exception");

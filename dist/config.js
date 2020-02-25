@@ -1,6 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const config = {
-    environment: 'dev'
+exports.config = {
+    dev: true
 };
-exports.default = config;

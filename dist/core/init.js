@@ -1,10 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+const router_1 = require("~/app/router");
+require('~/app/browser/Pools');
 class InitManager {
     static initCore(app) {
-        //入口方法
         this.app = app;
-        // this.initLoadRouter()
+        router_1.registerRouter(app);
     }
 }
 exports.default = InitManager;
