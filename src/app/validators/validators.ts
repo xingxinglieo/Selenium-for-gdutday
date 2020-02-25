@@ -17,7 +17,7 @@ class AccountValidator extends LinValidator {
     ]
 }
 class PayNetValidator extends AccountValidator {
-    months = new Rule('isInt', '月数应为小于6的数字', { min: 1, max: 6 })
+    months = [new Rule('isInt', '月数应为小于6的数字', { min: 1, max: 6 })]
 }
 export {
     AccountValidator,

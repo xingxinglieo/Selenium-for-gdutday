@@ -16,7 +16,7 @@ class LinValidator {
     data: Own.ExternalObject = {}
     parsed: Own.ExternalObject = {}
     alias!: {};
-    [property: string]: any;
+    [property: string]: unknown;
     //private可以帮你绑定this 一定要用
     private _assembleAllParams(ctx: Koa.ExtendableContext) {
         //获取所需参数
@@ -26,7 +26,7 @@ class LinValidator {
             path: ctx.params,
             header: ctx.request.header
         }
-    } 
+    }
 
     public get(path: string, parsed = true) {
         if (parsed) {
@@ -45,13 +45,13 @@ class LinValidator {
         }
     }
 
-    private _findMembersFilter(this: LinValidator, key: string) {
+    private _findMembersFilter(this: LinValidator, key: keyof LinValidator) {
         //调用带validator开头的函数
         if (/validate([A-Z])\w+/g.test(String(key))) {
             return true
         }
         if (this[key] instanceof Array) {
-            this[key].forEach((value: Rule) => {
+            (this[key] as Array<Rule>).forEach((value: Rule) => {
                 const isRuleType = value instanceof Rule
                 if (!isRuleType) {
                     throw new Error('验证数组必须全部为Rule类型')
@@ -93,7 +93,7 @@ class LinValidator {
         let result;
         if (isCustomFunc) {
             try {
-                await this[key](this.data)
+                await (this[key] as Function)(this.data)
                 result = new RuleResult(true)
             } catch (error) {
                 result = new RuleResult(false, error.msg || error.message || '参数错误')
