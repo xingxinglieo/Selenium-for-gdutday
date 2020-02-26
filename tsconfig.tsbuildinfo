@@ -374,7 +374,7 @@
         "signature": "91d0e34e983debac0eec1ed6f0f8e9f298690bfeab1bcd851f56dd4015445345"
       },
       "./src/config.ts": {
-        "version": "25a8d276f1111a62a4600486ba890c34494e73fa34a9a330af1fa92ce6739b0c",
+        "version": "b866ec4c75bea378eebbb3d2966474a5fb51e09438408016339cc99f5ee760ff",
         "signature": "2602dd7dde699a9b7edf49bb19b0f7261346148ee6a18ce7971b92d897976246"
       },
       "./src/middlewares/exception.ts": {
@@ -494,7 +494,7 @@
         "signature": "77c5380e028225312c34e96b3d66b98ee25c0a9b8f18ca9391a0a132068ad15a"
       },
       "./src/app/apis/paynet/getpayimg.ts": {
-        "version": "bd61d6b7c55f53036856469901ee17200e5ab81a7856f798c62e9f3b83e2eba7",
+        "version": "ac5e1328d39401379889f5aeac0fe2411ca9a30996724b3bf2e456b90b570a1b",
         "signature": "0990379e1efbc0c6bc399907930b1bdef70541c0969dbb8794d8b9b36c731251"
       },
       "./src/app/router.ts": {
