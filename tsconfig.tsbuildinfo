@@ -494,7 +494,7 @@
         "signature": "77c5380e028225312c34e96b3d66b98ee25c0a9b8f18ca9391a0a132068ad15a"
       },
       "./src/app/apis/paynet/getpayimg.ts": {
-        "version": "5015796d87996b45ca0bb0c96fcc43dfb0753c3422853bbeff486f8a1015da50",
+        "version": "79e0caffe9fa832442faee04413630c2eb1d9b661c20c01b6750167b2b98994c",
         "signature": "0990379e1efbc0c6bc399907930b1bdef70541c0969dbb8794d8b9b36c731251"
       },
       "./src/app/router.ts": {
