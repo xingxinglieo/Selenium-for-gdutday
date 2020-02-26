@@ -19,7 +19,7 @@ const catchError = async (context, next) => {
             context.status = err.code;
         }
         else {
-            if (config_1.default.environment === 'dev') {
+            if (config_1.config.dev) {
                 // 处于开发环境抛出错误 
                 throw err;
             }

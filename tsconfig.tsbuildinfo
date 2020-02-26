@@ -378,7 +378,7 @@
         "signature": "2602dd7dde699a9b7edf49bb19b0f7261346148ee6a18ce7971b92d897976246"
       },
       "./src/middlewares/exception.ts": {
-        "version": "9898d8af62d8d32d31a4658e4301cefc7cc5cbb9988d600ec35613d8357b7355",
+        "version": "6bb11db58346909bee4c24d05cfb362e002ab26f646e048c601102b3d3c6b044",
         "signature": "800950b22c7dfb368bc891b8686afe788ea8a826854366ba38f7c113f6927d05"
       },
       "./node_modules/@types/koa-router/index.d.ts": {
