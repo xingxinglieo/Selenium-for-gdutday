@@ -11,6 +11,6 @@ router.get('/functions/getPayImg', async (context) => {
     if (config_1.config.dev)
         console.log(context);
     await new validators_1.PayNetValidator().validate(context);
-    const srcOperations = getPayImg_1.newGetPayImg(context.request.body);
+    const srcOperations = getPayImg_1.newGetPayImg(context.request.query);
     context.body = await srcOperations.getPay();
 });
