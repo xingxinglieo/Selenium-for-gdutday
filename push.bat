@@ -1,17 +1,16 @@
-echo "Start submitting code to the local repository"
-echo "The current directory is：%cd%"
+echo "开始暂存"
+echo "当前目录 : %cd%"
 git add -A
 echo;
  
-echo "Commit the changes to the local repository"
+echo "开始提交"
 set now=%date% %time%
-echo %now%
 git commit -m "%now%"
 echo;
  
-echo "Commit the changes to the remote git server"
+echo "提交到远程仓库"
 git push
 echo;
  
-echo "Batch execution complete!"
+echo "完成"
 echo;
