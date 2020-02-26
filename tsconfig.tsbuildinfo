@@ -486,7 +486,7 @@
         "signature": "d5c697ddf1aadd720bb797e5c89263da42efe9b533be63cf9e2f16be23675460"
       },
       "./src/app/apis/paynet/getnetinfo.ts": {
-        "version": "6599a694444e267fdcbdae25101522aa73f3e78d695f61304a1dd72a6a631621",
+        "version": "9bbf1156117850c74add3508c75014c1b2698eb00593dfb72bb2069da7d8288a",
         "signature": "0990379e1efbc0c6bc399907930b1bdef70541c0969dbb8794d8b9b36c731251"
       },
       "./src/app/functions/paynet/getpayimg.ts": {
