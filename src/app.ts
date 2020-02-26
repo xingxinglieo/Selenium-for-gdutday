@@ -13,4 +13,6 @@ app.use(catchError);
 app.use(bodyParser());
 
 InitManager.initCore(app);
-app.listen(3000);  
+const host = 3000;
+app.listen(host);
+console.log(`listen on${host}`);  
