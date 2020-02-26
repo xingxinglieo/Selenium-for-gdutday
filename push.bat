@@ -1,16 +1,16 @@
-echo "¿ªÊ¼ÔÝ´æ"
-echo "µ±Ç°Ä¿Â¼ : %cd%"
+echo "ï¿½ï¿½Ê¼ï¿½Ý´ï¿½"
+echo "ï¿½ï¿½Ç°Ä¿Â¼ : %cd%"
 git add -A
 echo;
  
-echo "¿ªÊ¼Ìá½»"
+echo "ï¿½ï¿½Ê¼ï¿½á½»"
 set now=%date% %time%
 git commit -m "%now%"
 echo;
  
-echo "Ìá½»µ½Ô¶³Ì²Ö¿â"
-git push
+echo "ï¿½á½»ï¿½ï¿½Ô¶ï¿½Ì²Ö¿ï¿½"
+git push git@github.com:xingxinglieo/Selenium.git 
 echo;
  
-echo "Íê³É"
+echo "ï¿½ï¿½ï¿½"
 echo;
