@@ -2,6 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const AppLication = require("koa"); //应用对象
 const bodyParser = require("koa-bodyparser");
+// import { config } from '~/config'
 const bestRequire = require("best-require"); //ts-ignore
 bestRequire(`${__dirname}`); //ts-ignore
 const exception_1 = require("~/middlewares/exception");

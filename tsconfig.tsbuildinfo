@@ -374,7 +374,7 @@
         "signature": "91d0e34e983debac0eec1ed6f0f8e9f298690bfeab1bcd851f56dd4015445345"
       },
       "./src/config.ts": {
-        "version": "b866ec4c75bea378eebbb3d2966474a5fb51e09438408016339cc99f5ee760ff",
+        "version": "25a8d276f1111a62a4600486ba890c34494e73fa34a9a330af1fa92ce6739b0c",
         "signature": "2602dd7dde699a9b7edf49bb19b0f7261346148ee6a18ce7971b92d897976246"
       },
       "./src/middlewares/exception.ts": {
@@ -494,7 +494,7 @@
         "signature": "77c5380e028225312c34e96b3d66b98ee25c0a9b8f18ca9391a0a132068ad15a"
       },
       "./src/app/apis/paynet/getpayimg.ts": {
-        "version": "6ab14fbe7c8b66d1da4bb428291b3e34bf75a04c114a33ca3d5a46577b3bf4ca",
+        "version": "5015796d87996b45ca0bb0c96fcc43dfb0753c3422853bbeff486f8a1015da50",
         "signature": "0990379e1efbc0c6bc399907930b1bdef70541c0969dbb8794d8b9b36c731251"
       },
       "./src/app/router.ts": {
@@ -506,8 +506,12 @@
         "signature": "fea54a43196cf2b9d64ca99c35da3b6b7f8123295a7a40d53187ef916c57d10e"
       },
       "./src/app.ts": {
-        "version": "47baa03e10a6a29cd76406317d723638bb45e1d0f6f18acfbd76091cffb4f0cf",
+        "version": "5bcf322d21e44a432fede033ebeae19155b11e6a26b823861c0ef44baa050dd1",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
+      },
+      "./src/app/apis/test/text.ts": {
+        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       "./src/app/functions/getpayimg.ts": {
         "version": "3d643a03805bc297621efd9efbbfcfc71b4387b3980a8c6e0e9644aecf41a316",
@@ -584,7 +588,6 @@
       ],
       "allowSyntheticDefaultImports": false,
       "esModuleInterop": false,
-      "watch": true,
       "configFilePath": "./tsconfig.json"
     },
     "referencedMap": {
@@ -1637,6 +1640,7 @@
       ],
       "./src/app/apis/paynet/getpayimg.ts": [
         "./node_modules/@types/koa-router/index.d.ts",
+        "./src/config.ts",
         "./src/app/functions/paynet/getpayimg.ts",
         "./src/app/validators/validators.ts",
         "./node_modules/@types/node/fs.d.ts",
@@ -1666,6 +1670,12 @@
         "./src/typings/best-require/best-require.d.ts",
         "./src/middlewares/exception.ts",
         "./src/core/init.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./src/app/apis/test/text.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
