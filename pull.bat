@@ -1,5 +1,5 @@
 echo "开始拉取"
-git pull https://github.com/xingxinglieo/Selenium
+git pull git@github.com:xingxinglieo/Selenium.git 
 echo;
  
 echo "完成"
