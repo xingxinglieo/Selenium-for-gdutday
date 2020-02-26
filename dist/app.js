@@ -11,4 +11,4 @@ const app = new AppLication();
 app.use(exception_1.default);
 app.use(bodyParser());
 init_1.default.initCore(app);
-app.listen(80);
+app.listen(3000);

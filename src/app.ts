@@ -13,4 +13,4 @@ app.use(catchError);
 app.use(bodyParser());
 
 InitManager.initCore(app);
-app.listen(80);  
+app.listen(3000);  
