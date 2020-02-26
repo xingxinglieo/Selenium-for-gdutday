@@ -1,6 +1,6 @@
 import Koa = require('koa');
 import { HttpException } from '~/core/http-exception';
-import config from '~/config';
+import { config } from '~/config';
 const catchError: Koa.Middleware = async (context: Koa.BaseContext, next: Koa.Next) => {
     try {
         await next();
@@ -17,7 +17,7 @@ const catchError: Koa.Middleware = async (context: Koa.BaseContext, next: Koa.Ne
             context.body = new expectionBody(err.msg, err.errorCode)
             context.status = err.code;
         } else {
-            if (config.environment === 'dev') {
+            if (config.dev) {
                 // 处于开发环境抛出错误 
                 throw err;
             } else {
