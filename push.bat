@@ -1,4 +1,4 @@
-﻿echo "暂存"
+echo "暂存"
 echo "时间: %cd%"
 git add -A
 echo;
