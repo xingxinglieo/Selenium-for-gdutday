@@ -374,7 +374,7 @@
         "signature": "91d0e34e983debac0eec1ed6f0f8e9f298690bfeab1bcd851f56dd4015445345"
       },
       "./src/config.ts": {
-        "version": "b866ec4c75bea378eebbb3d2966474a5fb51e09438408016339cc99f5ee760ff",
+        "version": "25a8d276f1111a62a4600486ba890c34494e73fa34a9a330af1fa92ce6739b0c",
         "signature": "2602dd7dde699a9b7edf49bb19b0f7261346148ee6a18ce7971b92d897976246"
       },
       "./src/middlewares/exception.ts": {
