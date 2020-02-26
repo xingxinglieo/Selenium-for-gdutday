@@ -8,7 +8,6 @@ class GetNetInfo extends common_1.LoginSchoolNet {
         this.account = account;
     }
     async getInfo() {
-        await this.getPage();
         await this.login();
         return { ...await this.getAccountInfo(), ...await this.getNetStatus() };
     }
@@ -32,7 +31,4 @@ class GetNetInfo extends common_1.LoginSchoolNet {
         return { money, status };
     }
 }
-function newGetNetInfo(account) {
-    return new GetNetInfo(account);
-}
-exports.newGetNetInfo = newGetNetInfo;
+exports.GetNetInfo = GetNetInfo;

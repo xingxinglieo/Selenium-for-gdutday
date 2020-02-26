@@ -9,7 +9,6 @@ class GetPayImg extends common_1.LoginSchoolNet {
         this.months = payPramer.months.toString();
     }
     async getPay() {
-        await this.getPage();
         await this.login();
         await this.toPayPage();
         return await this.getSrc();
@@ -39,7 +38,4 @@ class GetPayImg extends common_1.LoginSchoolNet {
         return { src, orderId };
     }
 }
-function newGetPayImg(payPramer) {
-    return new GetPayImg(payPramer);
-}
-exports.newGetPayImg = newGetPayImg;
+exports.GetPayImg = GetPayImg;

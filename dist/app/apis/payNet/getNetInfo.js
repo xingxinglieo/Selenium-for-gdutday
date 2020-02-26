@@ -7,6 +7,6 @@ const router = new Router();
 exports.router = router;
 router.post('/functions/getNetInfo', async (context) => {
     await new validators_1.AccountValidator().validate(context);
-    const infoOperations = getNetInfo_1.newGetNetInfo(context.request.body);
+    const infoOperations = new getNetInfo_1.GetNetInfo(context.request.body);
     context.body = await infoOperations.getInfo();
 });

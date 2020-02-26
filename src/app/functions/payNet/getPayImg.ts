@@ -4,14 +4,13 @@ interface PayMessage {
     src: string,
     orderId: string
 }
-class GetPayImg extends LoginSchoolNet {
-    months: string; 
+export class GetPayImg extends LoginSchoolNet {
+    months: string;
     constructor(public payPramer: GetImgPramer) {
         super(payPramer);
         this.months = payPramer.months.toString();
     }
     async getPay(this: GetPayImg): Promise<PayMessage> {
-        await this.getPage();
         await this.login();
         await this.toPayPage();
         return await this.getSrc()
@@ -39,7 +38,4 @@ class GetPayImg extends LoginSchoolNet {
         const orderId = await page.$eval('#lb_wxddh', e => e.innerText)
         return { src, orderId };
     }
-}
-export function newGetPayImg(payPramer: GetImgPramer) {
-    return new GetPayImg(payPramer);
 }

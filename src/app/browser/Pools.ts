@@ -53,5 +53,5 @@ export class BroswerPool {
         }
     }
 }
-// export const QuTuoBroswerPool = new BroswerPool(QuTuoBrowser);
-export const PayNetBrowserPool = new BroswerPool(PayNetBrowser, { closeTimeout: 30000 });
+export const QuTuoBroswerPool = new BroswerPool(QuTuoBrowser);
+export const PayNetBrowserPool = new BroswerPool(PayNetBrowser);

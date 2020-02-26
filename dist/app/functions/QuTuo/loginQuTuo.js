@@ -1,3 +1,4 @@
+"use strict";
 // async function inputMessage(page, {
 //     password,
 //     schoolId

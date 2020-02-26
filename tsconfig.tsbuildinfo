@@ -374,7 +374,7 @@
         "signature": "91d0e34e983debac0eec1ed6f0f8e9f298690bfeab1bcd851f56dd4015445345"
       },
       "./src/config.ts": {
-        "version": "25a8d276f1111a62a4600486ba890c34494e73fa34a9a330af1fa92ce6739b0c",
+        "version": "b866ec4c75bea378eebbb3d2966474a5fb51e09438408016339cc99f5ee760ff",
         "signature": "2602dd7dde699a9b7edf49bb19b0f7261346148ee6a18ce7971b92d897976246"
       },
       "./src/middlewares/exception.ts": {
@@ -406,16 +406,16 @@
         "signature": "2e53e4a21ad1f06bf273a5f7861c74fe6dcd2880256821507f911bc66e15e113"
       },
       "./src/app/browser/pools.ts": {
-        "version": "501eab743afea791251f4311b17d295b2bac177a78f61bde11bc04bb3f7c7ddc",
-        "signature": "224cd3360d388392d0af28195a6cab5d7729ab88515a07c7d11a8ebe28421ac0"
+        "version": "988fe7115d0a1b1d60002445245267d96af16c3aa8eb9f68686edfd9599ae256",
+        "signature": "f5d8355a1794e9afc02d67c0714f7e3f65507d6bf421262bd36120902781f3c1"
       },
       "./src/app/functions/paynet/common.ts": {
-        "version": "39edc1f27ff36ea059348b5a8f25bb9500e7fcc5723bbbbfec38c95bfabf85a9",
+        "version": "5c26d55fc94d8f438d29c6e2caf856ef8eb13d75b94ebf867beaf61fe02a583f",
         "signature": "196e77044faf6cc5770489ab96715a9d3aec5bdb4f4668eac1873c2ba1cffe34"
       },
       "./src/app/functions/paynet/getnetinfo.ts": {
-        "version": "d06014213c6ef852f985d0a05eb1f674bca34736f0c08d604c0ed5002de9f8a3",
-        "signature": "62972c9f5babcfdc3ac19fa24b7abcce45f63df46f6949bd593e00bc3d215b31"
+        "version": "d9290a2ede82b4b50ba8d9a1a1d49792354a7c36bd2bdf6ce78920fcf4f84343",
+        "signature": "443a17012abfc7020cd2cf0cb5310a5e901d77dcbad71c46764348b92ddeb357"
       },
       "./node_modules/@types/validator/index.d.ts": {
         "version": "2d8a7dd71d6ec7fc9c397dfad3ce07fadebd0c4f6b7180c66fddbd2f1a429a9c",
@@ -486,19 +486,27 @@
         "signature": "d5c697ddf1aadd720bb797e5c89263da42efe9b533be63cf9e2f16be23675460"
       },
       "./src/app/apis/paynet/getnetinfo.ts": {
-        "version": "9bbf1156117850c74add3508c75014c1b2698eb00593dfb72bb2069da7d8288a",
+        "version": "283790662fe06f78684ee94e0de008a5708faf235306e36841b4cbd5b624d9ae",
         "signature": "0990379e1efbc0c6bc399907930b1bdef70541c0969dbb8794d8b9b36c731251"
       },
       "./src/app/functions/paynet/getpayimg.ts": {
-        "version": "c8937d2d45ccc0e9ca940f5183236b50c91e25eb12ec2b4ff6ce3c21574871fb",
-        "signature": "77c5380e028225312c34e96b3d66b98ee25c0a9b8f18ca9391a0a132068ad15a"
+        "version": "74f6b1bd95bd18fd0fda1f33f862717ef684b3e40270404164c2386d56221c71",
+        "signature": "13ba67f14c75bf57833db7c1c26e85beb4ad77082b2df07b8b274c3932c6b006"
       },
       "./src/app/apis/paynet/getpayimg.ts": {
-        "version": "ac5e1328d39401379889f5aeac0fe2411ca9a30996724b3bf2e456b90b570a1b",
+        "version": "e7e7ba96d33364157152977d8c73448560763a4dcb0ea6df207136c53bfffe5f",
+        "signature": "0990379e1efbc0c6bc399907930b1bdef70541c0969dbb8794d8b9b36c731251"
+      },
+      "./src/app/functions/qutuo/common.ts": {
+        "version": "81764a0bd84dda4f94b5ce60715dadb0d65794dec5f35eb30f1edadc517e89bc",
+        "signature": "9a7413c09784b98fb3e57a5ee3aba4862225b1be4f143d208edfb757cabf8766"
+      },
+      "./src/app/apis/qutuo/loginqutuo.ts": {
+        "version": "337229abfd6678ceb43a0f2215ff49314c0c9b709c15c520e4b659acc5290722",
         "signature": "0990379e1efbc0c6bc399907930b1bdef70541c0969dbb8794d8b9b36c731251"
       },
       "./src/app/router.ts": {
-        "version": "8b2f3b84d2ae3b27f4a7bdb895095dd5e555868e6227e1018bf6b9739327bb55",
+        "version": "22645fc7ac1f22979e692ed6f35397672c1fe829d1236eb066aee468a6015f42",
         "signature": "9c82c27a653fd14b3f7ff82ed24a7c5039af98f64cbe550e05af487bdbd1b202"
       },
       "./src/core/init.ts": {
@@ -511,14 +519,6 @@
       },
       "./src/app/apis/test/text.ts": {
         "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      "./src/app/functions/getpayimg.ts": {
-        "version": "3d643a03805bc297621efd9efbbfcfc71b4387b3980a8c6e0e9644aecf41a316",
-        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      "./src/app/functions/loginqutuo.ts": {
-        "version": "75f9543adaac86ebac9f72f3fffa4d5e297a8956903615b93b201e356496ca61",
         "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       "./src/app/utils/helper.ts": {
@@ -1649,9 +1649,28 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
+      "./src/app/functions/qutuo/common.ts": [
+        "./src/core/http-exception.ts",
+        "./src/app/browser/pools.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./src/app/apis/qutuo/loginqutuo.ts": [
+        "./node_modules/@types/koa-router/index.d.ts",
+        "./src/config.ts",
+        "./src/app/functions/qutuo/common.ts",
+        "./src/app/validators/validators.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
       "./src/app/router.ts": [
         "./src/app/apis/paynet/getnetinfo.ts",
         "./src/app/apis/paynet/getpayimg.ts",
+        "./src/app/apis/qutuo/loginqutuo.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1677,18 +1696,6 @@
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
       "./src/app/apis/test/text.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.5/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.5/util.d.ts"
-      ],
-      "./src/app/functions/getpayimg.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.5/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.5/util.d.ts"
-      ],
-      "./src/app/functions/loginqutuo.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -2803,6 +2810,9 @@
       "./src/app/apis/paynet/getpayimg.ts": [
         "./node_modules/@types/koa-router/index.d.ts"
       ],
+      "./src/app/apis/qutuo/loginqutuo.ts": [
+        "./node_modules/@types/koa-router/index.d.ts"
+      ],
       "./src/core/init.ts": [
         "./node_modules/@types/koa/index.d.ts"
       ],
@@ -2865,122 +2875,7 @@
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ]
     },
-    "semanticDiagnosticsPerFile": [
-      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.es5.d.ts",
-      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.d.ts",
-      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.es2016.d.ts",
-      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.es2017.d.ts",
-      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.es2018.d.ts",
-      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.dom.d.ts",
-      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.dom.iterable.d.ts",
-      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
-      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.scripthost.d.ts",
-      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.core.d.ts",
-      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.collection.d.ts",
-      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.generator.d.ts",
-      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
-      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.promise.d.ts",
-      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.proxy.d.ts",
-      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.reflect.d.ts",
-      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.symbol.d.ts",
-      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
-      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.es2016.array.include.d.ts",
-      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.es2017.object.d.ts",
-      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
-      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.es2017.string.d.ts",
-      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.es2017.intl.d.ts",
-      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
-      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
-      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
-      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.es2018.intl.d.ts",
-      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.es2018.promise.d.ts",
-      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.es2018.regexp.d.ts",
-      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.esnext.intl.d.ts",
-      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.esnext.bigint.d.ts",
-      "../../../appdata/roaming/npm/node_modules/typescript/lib/lib.es2018.full.d.ts",
-      "./node_modules/@types/node/globals.d.ts",
-      "./node_modules/@types/node/assert.d.ts",
-      "./node_modules/@types/node/async_hooks.d.ts",
-      "./node_modules/@types/node/buffer.d.ts",
-      "./node_modules/@types/node/child_process.d.ts",
-      "./node_modules/@types/node/cluster.d.ts",
-      "./node_modules/@types/node/console.d.ts",
-      "./node_modules/@types/node/constants.d.ts",
-      "./node_modules/@types/node/crypto.d.ts",
-      "./node_modules/@types/node/dgram.d.ts",
-      "./node_modules/@types/node/dns.d.ts",
-      "./node_modules/@types/node/domain.d.ts",
-      "./node_modules/@types/node/events.d.ts",
-      "./node_modules/@types/node/fs.d.ts",
-      "./node_modules/@types/node/http.d.ts",
-      "./node_modules/@types/node/http2.d.ts",
-      "./node_modules/@types/node/https.d.ts",
-      "./node_modules/@types/node/inspector.d.ts",
-      "./node_modules/@types/node/module.d.ts",
-      "./node_modules/@types/node/net.d.ts",
-      "./node_modules/@types/node/os.d.ts",
-      "./node_modules/@types/node/path.d.ts",
-      "./node_modules/@types/node/perf_hooks.d.ts",
-      "./node_modules/@types/node/process.d.ts",
-      "./node_modules/@types/node/punycode.d.ts",
-      "./node_modules/@types/node/querystring.d.ts",
-      "./node_modules/@types/node/readline.d.ts",
-      "./node_modules/@types/node/repl.d.ts",
-      "./node_modules/@types/node/stream.d.ts",
-      "./node_modules/@types/node/string_decoder.d.ts",
-      "./node_modules/@types/node/timers.d.ts",
-      "./node_modules/@types/node/tls.d.ts",
-      "./node_modules/@types/node/trace_events.d.ts",
-      "./node_modules/@types/node/tty.d.ts",
-      "./node_modules/@types/node/url.d.ts",
-      "./node_modules/@types/node/util.d.ts",
-      "./node_modules/@types/node/v8.d.ts",
-      "./node_modules/@types/node/vm.d.ts",
-      "./node_modules/@types/node/worker_threads.d.ts",
-      "./node_modules/@types/node/zlib.d.ts",
-      "./node_modules/@types/node/base.d.ts",
-      "./node_modules/@types/node/ts3.5/fs.d.ts",
-      "./node_modules/@types/node/ts3.5/util.d.ts",
-      "./node_modules/@types/node/ts3.5/globals.d.ts",
-      "./node_modules/@types/node/ts3.5/wasi.d.ts",
-      "./node_modules/@types/node/ts3.5/index.d.ts",
-      "./node_modules/@types/accepts/index.d.ts",
-      "./node_modules/@types/keygrip/index.d.ts",
-      "./node_modules/@types/range-parser/index.d.ts",
-      "./node_modules/@types/express-serve-static-core/index.d.ts",
-      "./node_modules/@types/mime/index.d.ts",
-      "./node_modules/@types/serve-static/index.d.ts",
-      "./node_modules/@types/connect/index.d.ts",
-      "./node_modules/@types/body-parser/index.d.ts",
-      "./node_modules/@types/express/index.d.ts",
-      "./node_modules/@types/cookies/index.d.ts",
-      "./node_modules/@types/http-assert/index.d.ts",
-      "./node_modules/@types/koa-compose/index.d.ts",
-      "./node_modules/@types/koa/index.d.ts",
-      "./node_modules/@types/koa-bodyparser/index.d.ts",
-      "./src/core/http-exception.ts",
-      "./node_modules/@types/koa-router/index.d.ts",
-      "./node_modules/@types/validator/index.d.ts",
-      "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
-      "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
-      "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
-      "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
-      "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
-      "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
-      "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
-      "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
-      "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
-      "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
-      "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
-      "./node_modules/@types/lodash/ts3.1/common/util.d.ts",
-      "./node_modules/@types/lodash/ts3.1/index.d.ts",
-      "./src/typings/best-require/best-require.d.ts",
-      "./node_modules/@types/basic-auth/index.d.ts",
-      "./node_modules/@types/bluebird/index.d.ts",
-      "./node_modules/@types/jsonwebtoken/index.d.ts",
-      "./node_modules/@types/require-directory/index.d.ts",
-      "./node_modules/@types/tesseract.js/index.d.ts"
-    ]
+    "semanticDiagnosticsPerFile": []
   },
   "version": "3.7.5"
 }

@@ -53,5 +53,5 @@ class BroswerPool {
     }
 }
 exports.BroswerPool = BroswerPool;
-// export const QuTuoBroswerPool = new BroswerPool(QuTuoBrowser);
-exports.PayNetBrowserPool = new BroswerPool(Broswers_2.PayNetBrowser, { closeTimeout: 30000 });
+exports.QuTuoBroswerPool = new BroswerPool(Broswers_2.QuTuoBrowser);
+exports.PayNetBrowserPool = new BroswerPool(Broswers_2.PayNetBrowser);

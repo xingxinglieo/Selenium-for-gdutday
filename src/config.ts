@@ -1,3 +1,3 @@
 export const config = {
-    dev: true
+    dev: false
 };

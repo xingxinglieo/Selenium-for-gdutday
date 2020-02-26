@@ -16,6 +16,7 @@ export class LoginSchoolNet {
         if (browser) this.page = browser.page;
     }
     protected async login() {
+        await this.getPage();
         const { schoolId, password } = this.params;
         await (await this.page.waitForSelector('#username')).type(schoolId);
         await (await this.page.waitForSelector('#password')).type(password);
