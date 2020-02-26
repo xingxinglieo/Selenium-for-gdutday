@@ -7,7 +7,6 @@ const validators_1 = require("~/app/validators/validators");
 const router = new Router();
 exports.router = router;
 router.get('/functions/getPayImg', async (context) => {
-    debugger;
     if (config_1.config.dev)
         console.log(context);
     await new validators_1.PayNetValidator().validate(context);
