@@ -1,16 +1,16 @@
-echo "��ʼ�ݴ�"
-echo "��ǰĿ¼ : %cd%"
+﻿echo "暂存"
+echo "时间: %cd%"
 git add -A
 echo;
  
-echo "��ʼ�ύ"
+echo "提交"
 set now=%date% %time%
 git commit -m "%now%"
 echo;
  
-echo "�ύ��Զ�ֿ̲�"
+echo "上传"
 git push git@github.com:xingxinglieo/Selenium.git 
 echo;
  
-echo "���"
+echo "完成"
 echo;
