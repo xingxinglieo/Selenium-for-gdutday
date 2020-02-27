@@ -28,13 +28,22 @@ function findMembers(instance: Own.ExternalObject, params: params) {
         //过滤形参是字符串，传入value
         if (filter && filter(value)) return true
         else if (prefix && value.startsWith(prefix)) return true
-        else if (specifiedType &&(instance[value] instanceof specifiedType)) return true
+        else if (specifiedType && (instance[value] instanceof specifiedType)) return true
         else return false
     }
 
     return _find(instance)
 }
-
+function after23_30() {
+    const data = new Date();
+    return data.getHours() > 23 && data.getMinutes() > 30;
+}
+function before8(){
+    const data = new Date();
+    return data.getHours() < 8; 
+}
 export {
-    findMembers
+    findMembers,
+    after23_30,
+    before8
 }
