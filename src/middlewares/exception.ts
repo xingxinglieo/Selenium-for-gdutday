@@ -27,5 +27,7 @@ const catchError: Koa.Middleware = async (context: Koa.BaseContext, next: Koa.Ne
         }
     }
 }
-export default catchError;
+export {
+    catchError
+}
 // module.exports = catchError;

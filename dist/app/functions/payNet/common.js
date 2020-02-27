@@ -2,14 +2,18 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const Pools_1 = require("~/app/browser/Pools");
 const http_exception_1 = require("~/core/http-exception");
-class LoginSchoolNet {
+const common_1 = require("../common");
+class LoginSchoolNet extends common_1.Base {
     constructor(params) {
+        super();
         this.params = params;
     }
     async getPage() {
         const browser = (await Pools_1.PayNetBrowserPool.getBroswer());
-        if (browser)
+        if (browser) {
             this.page = browser.page;
+            this.browser = browser.instance;
+        }
     }
     async login() {
         await this.getPage();

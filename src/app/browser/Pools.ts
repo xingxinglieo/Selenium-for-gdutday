@@ -1,8 +1,7 @@
 // import { getNetInfo } from '~/app/functions/getNetInfo';
 //管理GetImgBroswer的类
-import { Browser, BrowserType } from './Broswers'
-import { QuTuoBrowser, PayNetBrowser } from './Broswers'
-
+import { Browser, BrowserType } from './Browsers'
+import { QuTuoBrowser, PayNetBrowser } from './Browsers'
 export class BroswerPool {
     pools: Browser[] = [];
     plength: number;
@@ -12,45 +11,49 @@ export class BroswerPool {
         this.plength = plength;
         this.interval = interval;
         this.closeTimeout = closeTimeout;
+        this.confim();
         this.watch();
+        // this.watch();
     }
-    async getBroswer() {
+    //向外界抛出一个Browser实例
+    public async getBroswer() {
         const browser = this.hasBroswer()
-            ? await this.popBroswer() as Browser
+            ? this.popBroswer() as Browser
             : await this.BrowserType.createBrowser();
-        this.autoDestroyBroswer(browser.instance);
+        this.confim();
+        // this.autoDestroyBroswer(browser.instance);
         return browser
     }
-    async addBroswer() {
+    public confim() {
+        let diff = this.plength - this.pools.length;
+        if (diff > 0) {
+            while (diff--)
+                this.addBroswer().catch((_e) => {
+                    console.log('添加一个浏览器失败');
+                });
+        }
+    }
+    private async addBroswer() {
         const browser = await this.BrowserType.createBrowser();
         this.pushBroswer(browser);
     }
-    pushBroswer(browser: Browser) {
+    private pushBroswer(browser: Browser) {
         this.pools.push(browser);
     }
-    popBroswer() {
+    private popBroswer() {
         return this.pools.pop();
     }
-    async hasBroswer() {
+    private async hasBroswer() {
         return this.pools.length > 0;
     }
-    async autoDestroyBroswer(browser: Puppeteer.Browser) {
-        return setTimeout(async () => await browser.close(), this.closeTimeout)
-    }
-    async watch() {
-        const f = confim.bind(this);
-        await f();
-        setInterval(f, this.interval)
-        async function confim(this: BroswerPool) {
-            let diff = this.plength - this.pools.length;
-            if (diff > 0) {
-                while (diff--)
-                    this.addBroswer().catch((e) => {
-                        console.log(e);
-                        console.log('添加失败');
-                    });
-            }
-        }
+    // private autoDestroyBroswer(browser: Puppeteer.Browser) {
+    //     return setTimeout(() => {
+    //         browser.close().catch();
+    //         this.confim();
+    //     }, this.closeTimeout)
+    // }
+    private watch() {
+        setInterval(() => this.confim(), this.interval)
     }
 }
 export const QuTuoBroswerPool = new BroswerPool(QuTuoBrowser);

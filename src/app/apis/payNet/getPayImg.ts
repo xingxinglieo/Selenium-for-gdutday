@@ -8,5 +8,6 @@ router.post('/functions/getPayImg', async context => {
     await new PayNetValidator().validate(context)
     const srcOperations = new GetPayImg(context.request.body);
     context.body = await srcOperations.getPay();
+    srcOperations.browser.close();
 })
 export { router };

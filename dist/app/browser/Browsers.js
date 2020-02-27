@@ -1,37 +1,36 @@
-import * as puppeteer from 'puppeteer';
-import * as devices from 'puppeteer/DeviceDescriptors';
-import { config } from '~/config';
-import { urls } from '~/app/static'
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const puppeteer = require("puppeteer");
+const devices = require("puppeteer/DeviceDescriptors");
+const config_1 = require("~/config");
+const static_1 = require("~/app/static");
 let uid = 0;
 //实例类
-export class Browser {
-    instance!: puppeteer.Browser
-    page!: puppeteer.Page
+class Browser {
     constructor() {
     }
-    static timeout = 20000;
-    async launchBrowser(browserOptions: puppeteer.LaunchOptions = {
-        headless: !config.dev,
-        dumpio: config.dev,
+    async launchBrowser(browserOptions = {
+        headless: !config_1.config.dev,
+        dumpio: config_1.config.dev,
     }) {
-        this.instance = await puppeteer.launch(browserOptions)
+        this.instance = await puppeteer.launch(browserOptions);
         const instance = this.instance;
         const page = await instance.newPage();
         this.page = page;
         //如果失败自动关闭
         return setTimeout(function () {
             instance.close();
-        }, Browser.timeout)
+        }, Browser.timeout);
     }
 }
-//操作类工厂
-type asyncOperation = (_: puppeteer.Page) => Promise<unknown>;
-async function defaultfun(_: puppeteer.Page): Promise<any> { };
-export class BrowserType {
-    beforeGoto: asyncOperation;
-    afterGoto: asyncOperation;
-    isPhone: boolean;
-    constructor(private url: string, { beforeGoto = defaultfun, afterGoto = defaultfun, isPhone = false } = {}) {
+exports.Browser = Browser;
+//创建一个浏览器的到成功最大接受时间
+Browser.timeout = 20000;
+async function defaultfun(_) { }
+;
+class BrowserType {
+    constructor(url, { beforeGoto = defaultfun, afterGoto = defaultfun, isPhone = false } = {}) {
+        this.url = url;
         this.beforeGoto = beforeGoto;
         this.afterGoto = afterGoto;
         this.isPhone = isPhone;
@@ -39,24 +38,25 @@ export class BrowserType {
     async createBrowser() {
         const browser = new Browser();
         const timer = await browser.launchBrowser();
-        if (this.isPhone) await browser.page.emulate(devices['iPhone X'])
+        if (this.isPhone)
+            await browser.page.emulate(devices['iPhone X']);
         await this.firstStep(browser.page);
         clearInterval(timer);
         return browser;
     }
-    async firstStep(page: puppeteer.Page) {
+    async firstStep(page) {
         await this.beforeGoto(page);
         await page.goto(this.url);
         await this.afterGoto(page);
     }
 }
+exports.BrowserType = BrowserType;
 class QuTuo {
-    static schoolName = '广东工业大学';
-    static async firstStep(page: Puppeteer.Page) {
+    static async firstStep(page) {
         await QuTuo.selectSchool(page);
         await QuTuo.confirmSchool(page);
     }
-    static async selectSchool(page: Puppeteer.Page) {
+    static async selectSchool(page) {
         const searchInput = await page.waitForSelector('input[type = "search"]');
         await searchInput.type(this.schoolName, {
             delay: 70
@@ -70,21 +70,24 @@ class QuTuo {
         do {
             page.waitFor(300);
             li = await page.$('li');
-            if (li !== null) await li.click();
-        } while (li !== null)
+            if (li !== null)
+                await li.click();
+        } while (li !== null);
         await this.confirmSchool(page);
     }
-    static async  confirmSchool(page: Puppeteer.Page) {
+    static async confirmSchool(page) {
         //confim the selected school
         await page.waitFor(1300);
         const loginLogo = await page.$eval('.login-logo', e => (e.innerText).trim());
-        if (loginLogo !== this.schoolName) this.selectSchool(page);
-        else return;
+        if (loginLogo !== this.schoolName)
+            this.selectSchool(page);
+        else
+            return;
     }
 }
-export const PayNetBrowser = new BrowserType(urls.SCHOOL_LOGIN);
-export const QuTuoBrowser = new BrowserType(urls.QUTUO_LOGIN_SELECT, {
+QuTuo.schoolName = '广东工业大学';
+exports.PayNetBrowser = new BrowserType(static_1.urls.SCHOOL_LOGIN);
+exports.QuTuoBrowser = new BrowserType(static_1.urls.QUTUO_LOGIN_SELECT, {
     isPhone: true,
     afterGoto: QuTuo.firstStep,
-})
-
+});

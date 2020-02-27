@@ -369,17 +369,21 @@
         "version": "b8d67a816b437cd16692069fa2d9c2255216673fdf9d1bdd6a9d2f23a803796f",
         "signature": "b8d67a816b437cd16692069fa2d9c2255216673fdf9d1bdd6a9d2f23a803796f"
       },
-      "./src/core/http-exception.ts": {
-        "version": "b5facafc84921f44c4d763d48593bba257cf82b6518fe60a9b6dd4181961c3de",
-        "signature": "91d0e34e983debac0eec1ed6f0f8e9f298690bfeab1bcd851f56dd4015445345"
-      },
       "./src/config.ts": {
         "version": "99c3f08b3ff4be64c9b0dbcec6c11509250f586e259208a6fae7b877fe0b521f",
         "signature": "2602dd7dde699a9b7edf49bb19b0f7261346148ee6a18ce7971b92d897976246"
       },
+      "./src/middlewares/consolelog.ts": {
+        "version": "41b92a866af512992077c7a48a58caf15c59243deea222d50e71cf4d4fb9ba39",
+        "signature": "9aeeff88282d4e0049bce071d79dce3e543c2ecefdb9fcb683e68733bcf2cb7d"
+      },
+      "./src/core/http-exception.ts": {
+        "version": "b5facafc84921f44c4d763d48593bba257cf82b6518fe60a9b6dd4181961c3de",
+        "signature": "91d0e34e983debac0eec1ed6f0f8e9f298690bfeab1bcd851f56dd4015445345"
+      },
       "./src/middlewares/exception.ts": {
-        "version": "6bb11db58346909bee4c24d05cfb362e002ab26f646e048c601102b3d3c6b044",
-        "signature": "800950b22c7dfb368bc891b8686afe788ea8a826854366ba38f7c113f6927d05"
+        "version": "ecdb5890fd96a46a1649a9e206accf4592a5081f2bc73b17d2e805407150ec6d",
+        "signature": "d10ac8b2b4083bc3112f7517d960f7960c5a39196066df9bb12572c49d116da8"
       },
       "./node_modules/@types/koa-router/index.d.ts": {
         "version": "e09979fcd5cf3d51d22dc91cbaf126849fb3d442c00f7c1239af912a9195fba5",
@@ -401,17 +405,21 @@
         "version": "8455da24c3c6d528374a3e8906f2fe7a81b945045bf458c68240a1cc38b325d3",
         "signature": "90a22b9bf7cc12206bc5244476d2dcd127492ff51c7d7ebd4b20c02e7721e661"
       },
-      "./src/app/browser/broswers.ts": {
-        "version": "a22dc5039fa1e7de210cad464de3b8fc5b15219ba40de06e467976bfa0ab3df1",
+      "./src/app/browser/browsers.ts": {
+        "version": "17605d1b446123b28713a2b0c7cbd640f76bcd3437a59f26289d0e5e8c10ea4c",
         "signature": "2e53e4a21ad1f06bf273a5f7861c74fe6dcd2880256821507f911bc66e15e113"
       },
       "./src/app/browser/pools.ts": {
-        "version": "988fe7115d0a1b1d60002445245267d96af16c3aa8eb9f68686edfd9599ae256",
-        "signature": "f5d8355a1794e9afc02d67c0714f7e3f65507d6bf421262bd36120902781f3c1"
+        "version": "37cc3057d6dd90b11b30c459898e1e9d434748386a6e5674283d17f456692cc2",
+        "signature": "6c93f74a2970f67fd70457a0e15969011a61da8457ebc6940c30db0e04a4745a"
+      },
+      "./src/app/functions/common.ts": {
+        "version": "1aa765fd538ed9014a0b517413b5b4e6013352383ff08a2a43340b6a95d6a035",
+        "signature": "bdc19f37c3decb855ba7c5d04ffc4bd6dc5c79901376df6d76cdbe505549c5a8"
       },
       "./src/app/functions/paynet/common.ts": {
-        "version": "5c26d55fc94d8f438d29c6e2caf856ef8eb13d75b94ebf867beaf61fe02a583f",
-        "signature": "196e77044faf6cc5770489ab96715a9d3aec5bdb4f4668eac1873c2ba1cffe34"
+        "version": "7e64da6cee2ca2fb98570751871fa20f08a01832680ece18ff077f17132a90af",
+        "signature": "f92c6e94268f3853f5cc5b4032be65c548444a72a26a576a1c2f43bca63df50d"
       },
       "./src/app/functions/paynet/getnetinfo.ts": {
         "version": "d9290a2ede82b4b50ba8d9a1a1d49792354a7c36bd2bdf6ce78920fcf4f84343",
@@ -486,7 +494,7 @@
         "signature": "d5c697ddf1aadd720bb797e5c89263da42efe9b533be63cf9e2f16be23675460"
       },
       "./src/app/apis/paynet/getnetinfo.ts": {
-        "version": "283790662fe06f78684ee94e0de008a5708faf235306e36841b4cbd5b624d9ae",
+        "version": "76aa10a8fce59dac7dc03d576f49f9b35bc5f76055d741eefcc212a04d319a85",
         "signature": "0990379e1efbc0c6bc399907930b1bdef70541c0969dbb8794d8b9b36c731251"
       },
       "./src/app/functions/paynet/getpayimg.ts": {
@@ -494,15 +502,15 @@
         "signature": "13ba67f14c75bf57833db7c1c26e85beb4ad77082b2df07b8b274c3932c6b006"
       },
       "./src/app/apis/paynet/getpayimg.ts": {
-        "version": "e7e7ba96d33364157152977d8c73448560763a4dcb0ea6df207136c53bfffe5f",
+        "version": "b58fedb68f87317137e87e95b1957a243bec54e67cf4da0eeaaf42ade00e35a5",
         "signature": "0990379e1efbc0c6bc399907930b1bdef70541c0969dbb8794d8b9b36c731251"
       },
       "./src/app/functions/qutuo/common.ts": {
-        "version": "81764a0bd84dda4f94b5ce60715dadb0d65794dec5f35eb30f1edadc517e89bc",
-        "signature": "9a7413c09784b98fb3e57a5ee3aba4862225b1be4f143d208edfb757cabf8766"
+        "version": "dcb3d41e322235017c6a9c6c2f093388d61d9e0af2abd175d296ba464da5b54e",
+        "signature": "188fc248a29615a143764b45800f1f091d8294d188a5e9f2ce99f7599ffac248"
       },
       "./src/app/apis/qutuo/loginqutuo.ts": {
-        "version": "337229abfd6678ceb43a0f2215ff49314c0c9b709c15c520e4b659acc5290722",
+        "version": "bffd87ae9ae730b4b45a3efbc64bed29fb76579e196dac70388cf5c9d61215ca",
         "signature": "0990379e1efbc0c6bc399907930b1bdef70541c0969dbb8794d8b9b36c731251"
       },
       "./src/app/router.ts": {
@@ -514,16 +522,24 @@
         "signature": "fea54a43196cf2b9d64ca99c35da3b6b7f8123295a7a40d53187ef916c57d10e"
       },
       "./src/app.ts": {
-        "version": "0119406b267148d601a1cb4a6f652d45a5559264257e67186aab0cbacf710c31",
+        "version": "97ccffda42a12ee2603c492ec0cf1ad48aa1a77fc8031eb25d6e379b2b8b7d2a",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
       },
       "./src/app/apis/test/text.ts": {
         "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
+      "./src/app/crawler/base64.ts": {
+        "version": "3de8f86c649a42fd43a5c43d031d4fac2c93fb15f4360928e5f1bb03a30d70c9",
+        "signature": "fbcdddac6f33e84b8f4c108b8d42fb9d1bba9377987409363dc5513ba1aeda01"
+      },
       "./src/app/utils/helper.ts": {
         "version": "2d3c1c62c665aec23ec604b9e0dda5396e03d1e56fb0b7d5acc19239273dd8ec",
         "signature": "6415cfbabecca30941418e69e3d60c4e5ce60cb9c7b65c3ab6f2575dcad06296"
+      },
+      "./src/middlewares/confirmbrowser.ts": {
+        "version": "28df0a9191b821075488c3fd56d7e4b98bc8db2a83e1b089fe6f022e4294d6e2",
+        "signature": "90155941111f8e6b6c8c6b6e5a44ae31ec7274b968ca987b18d291f162e8d41a"
       },
       "./src/typings/index.d.ts": {
         "version": "c7a76464abafc1bb68aaf1b70ae2a9654a38f98cc4a7ab4cfa229bbb2476cb54",
@@ -1269,13 +1285,20 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
-      "./src/core/http-exception.ts": [
+      "./src/config.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
-      "./src/config.ts": [
+      "./src/middlewares/consolelog.ts": [
+        "./node_modules/@types/koa/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./src/core/http-exception.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1326,7 +1349,7 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
-      "./src/app/browser/broswers.ts": [
+      "./src/app/browser/browsers.ts": [
         "./node_modules/@types/puppeteer/index.d.ts",
         "./node_modules/@types/puppeteer/devicedescriptors.d.ts",
         "./src/config.ts",
@@ -1337,7 +1360,13 @@
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
       "./src/app/browser/pools.ts": [
-        "./src/app/browser/broswers.ts",
+        "./src/app/browser/browsers.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./src/app/functions/common.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1346,6 +1375,7 @@
       "./src/app/functions/paynet/common.ts": [
         "./src/app/browser/pools.ts",
         "./src/core/http-exception.ts",
+        "./src/app/functions/common.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1652,6 +1682,7 @@
       "./src/app/functions/qutuo/common.ts": [
         "./src/core/http-exception.ts",
         "./src/app/browser/pools.ts",
+        "./src/app/functions/common.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1687,7 +1718,9 @@
       "./src/app.ts": [
         "./node_modules/@types/koa/index.d.ts",
         "./node_modules/@types/koa-bodyparser/index.d.ts",
+        "./src/config.ts",
         "./src/typings/best-require/best-require.d.ts",
+        "./src/middlewares/consolelog.ts",
         "./src/middlewares/exception.ts",
         "./src/core/init.ts",
         "./node_modules/@types/node/fs.d.ts",
@@ -1701,7 +1734,20 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
+      "./src/app/crawler/base64.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
       "./src/app/utils/helper.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./src/middlewares/confirmbrowser.ts": [
+        "./src/app/browser/pools.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -2535,11 +2581,8 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
-      "./src/app/browser/broswers.ts": [
-        "./node_modules/@types/puppeteer/index.d.ts"
-      ],
       "./src/app/browser/pools.ts": [
-        "./src/app/browser/broswers.ts"
+        "./src/app/browser/browsers.ts"
       ],
       "./src/app/functions/paynet/getnetinfo.ts": [
         "./src/app/functions/paynet/common.ts"
@@ -2873,6 +2916,18 @@
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./src/middlewares/consolelog.ts": [
+        "./node_modules/@types/koa/index.d.ts"
+      ],
+      "./src/app/browser/browsers.ts": [
+        "./node_modules/@types/puppeteer/index.d.ts"
+      ],
+      "./src/app/functions/qutuo/common.ts": [
+        "./src/app/functions/common.ts"
+      ],
+      "./src/app/functions/paynet/common.ts": [
+        "./src/app/functions/common.ts"
       ]
     },
     "semanticDiagnosticsPerFile": []

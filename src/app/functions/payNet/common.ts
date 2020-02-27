@@ -1,5 +1,7 @@
 import { PayNetBrowserPool } from '~/app/browser/Pools';
 import { ParameterException } from '~/core/http-exception';
+import { Base } from '../common'
+
 export interface AccountPramer {
     schoolId: string
     password: string
@@ -7,13 +9,16 @@ export interface AccountPramer {
 export interface GetImgPramer extends AccountPramer {
     months: string
 }
-export class LoginSchoolNet {
-    page !: Puppeteer.Page
+export class LoginSchoolNet extends Base {
     constructor(public params: AccountPramer) {
+        super();
     }
     protected async getPage() {
         const browser = (await PayNetBrowserPool.getBroswer());
-        if (browser) this.page = browser.page;
+        if (browser) {
+            this.page = browser.page;
+            this.browser = browser.instance;
+        }
     }
     protected async login() {
         await this.getPage();

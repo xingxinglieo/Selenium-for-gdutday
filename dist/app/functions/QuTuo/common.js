@@ -2,14 +2,18 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const http_exception_1 = require("~/core/http-exception");
 const Pools_1 = require("~/app/browser/Pools");
-class LoginQuTuo {
+const common_1 = require("../common");
+class LoginQuTuo extends common_1.Base {
     constructor(account) {
+        super();
         this.account = account;
     }
     async getPage() {
         const browser = (await Pools_1.QuTuoBroswerPool.getBroswer());
-        if (browser)
+        if (browser) {
             this.page = browser.page;
+            this.browser = browser.instance;
+        }
     }
     async login() {
         await this.getPage();

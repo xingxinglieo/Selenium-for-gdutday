@@ -12,4 +12,5 @@ router.post('/functions/loginQuTuo', async (context) => {
     await new validators_1.AccountValidator().validate(context);
     const srcOperations = new common_1.LoginQuTuo(context.request.body);
     context.body = await srcOperations.login();
+    srcOperations.browser.close();
 });

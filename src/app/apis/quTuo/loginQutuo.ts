@@ -7,7 +7,7 @@ router.post('/functions/loginQuTuo', async context => {
     if (config.dev) console.log(context);
     await new AccountValidator().validate(context)
     const srcOperations = new LoginQuTuo(context.request.body)
-
     context.body = await srcOperations.login();
+    srcOperations.browser.close();
 })
 export { router };

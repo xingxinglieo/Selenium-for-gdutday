@@ -1,16 +1,20 @@
 import { ParameterException } from '~/core/http-exception';
 import { QuTuoBroswerPool } from '~/app/browser/Pools'
+import { Base } from '../common'
 export interface AccountPramer {
     schoolId: string
     password: string
 }
-export class LoginQuTuo {
-    page !: Puppeteer.Page
+export class LoginQuTuo extends Base {
     constructor(public account: AccountPramer) {
+        super();
     }
     protected async getPage() {
         const browser = (await QuTuoBroswerPool.getBroswer());
-        if (browser) this.page = browser.page;
+        if (browser){
+            this.page = browser.page;
+            this.browser = browser.instance;
+        } 
     }
     async login() {
         await this.getPage();

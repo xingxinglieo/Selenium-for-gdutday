@@ -30,5 +30,5 @@ const catchError = async (context, next) => {
         }
     }
 };
-exports.default = catchError;
+exports.catchError = catchError;
 // module.exports = catchError;
