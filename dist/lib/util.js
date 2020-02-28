@@ -28,3 +28,13 @@ function findMembers(instance, params) {
     return _find(instance);
 }
 exports.findMembers = findMembers;
+function after23_30() {
+    const data = new Date();
+    return data.getHours() > 23 && data.getMinutes() > 30;
+}
+exports.after23_30 = after23_30;
+function before8() {
+    const data = new Date();
+    return data.getHours() < 8;
+}
+exports.before8 = before8;

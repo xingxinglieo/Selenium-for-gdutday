@@ -21,7 +21,7 @@ export class BroswerPool {
             ? this.popBroswer() as Browser
             : await this.BrowserType.createBrowser();
         this.confim();
-        // this.autoDestroyBroswer(browser.instance);
+        this.autoDestroyBroswer(browser.instance);
         return browser
     }
     public confim() {
@@ -46,12 +46,12 @@ export class BroswerPool {
     private async hasBroswer() {
         return this.pools.length > 0;
     }
-    // private autoDestroyBroswer(browser: Puppeteer.Browser) {
-    //     return setTimeout(() => {
-    //         browser.close().catch();
-    //         this.confim();
-    //     }, this.closeTimeout)
-    // }
+    private autoDestroyBroswer(browser: Puppeteer.Browser) {
+        return setTimeout(() => {
+            browser.close().catch();
+            this.confim();
+        }, this.closeTimeout)
+    }
     private watch() {
         setInterval(() => this.confim(), this.interval)
     }

@@ -12,7 +12,7 @@ router.post('/functions/getNetInfo', async context => {
         await new AccountValidator().validate(context)
         const infoOperations = new GetNetInfo(context.request.body);
         context.body = await infoOperations.getInfo();
-        infoOperations.browser.close();
+        infoOperations.browser.close().catch();
     }
 })
 export { router };  
