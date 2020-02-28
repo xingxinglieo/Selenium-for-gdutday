@@ -1,13 +1,16 @@
 // import { getNetInfo } from '~/app/functions/getNetInfo';
 //管理GetImgBroswer的类
-import { Browser, BrowserType } from './Browsers'
-import { QuTuoBrowser, PayNetBrowser } from './Browsers'
+import { Browser, BrowserType } from "./Browsers";
+import { QuTuoBrowser, PayNetBrowser } from "./Browsers";
 export class BroswerPool {
     pools: Browser[] = [];
     plength: number;
     interval: number;
     closeTimeout: number;
-    constructor(public BrowserType: BrowserType, { plength = 2, interval = Browser.timeout, closeTimeout = 30000 } = {}) {
+    constructor(
+        public BrowserType: BrowserType,
+        { plength = 2, interval = Browser.timeout, closeTimeout = 30000 } = {}
+    ) {
         this.plength = plength;
         this.interval = interval;
         this.closeTimeout = closeTimeout;
@@ -18,18 +21,18 @@ export class BroswerPool {
     //向外界抛出一个Browser实例
     public async getBroswer() {
         const browser = this.hasBroswer()
-            ? this.popBroswer() as Browser
+            ? (this.popBroswer() as Browser)
             : await this.BrowserType.createBrowser();
         this.confim();
         this.autoDestroyBroswer(browser.instance);
-        return browser
+        return browser;
     }
     public confim() {
         let diff = this.plength - this.pools.length;
         if (diff > 0) {
             while (diff--)
-                this.addBroswer().catch((_e) => {
-                    console.log('添加一个浏览器失败');
+                this.addBroswer().catch(_e => {
+                    console.log("添加一个浏览器失败");
                 });
         }
     }
@@ -50,10 +53,10 @@ export class BroswerPool {
         return setTimeout(() => {
             browser.close().catch();
             this.confim();
-        }, this.closeTimeout)
+        }, this.closeTimeout);
     }
     private watch() {
-        setInterval(() => this.confim(), this.interval)
+        setInterval(() => this.confim(), this.interval);
     }
 }
 export const QuTuoBroswerPool = new BroswerPool(QuTuoBrowser);

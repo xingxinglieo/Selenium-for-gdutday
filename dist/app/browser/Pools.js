@@ -28,8 +28,8 @@ class BroswerPool {
         let diff = this.plength - this.pools.length;
         if (diff > 0) {
             while (diff--)
-                this.addBroswer().catch((_e) => {
-                    console.log('添加一个浏览器失败');
+                this.addBroswer().catch(_e => {
+                    console.log("添加一个浏览器失败");
                 });
         }
     }

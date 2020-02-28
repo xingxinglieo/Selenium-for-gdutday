@@ -34,16 +34,6 @@ function findMembers(instance: Own.ExternalObject, params: params) {
 
     return _find(instance)
 }
-function after23_30() {
-    const data = new Date();
-    return data.getHours() > 23 && data.getMinutes() > 30;
-}
-function before8(){
-    const data = new Date();
-    return data.getHours() < 8; 
-}
 export {
     findMembers,
-    after23_30,
-    before8
 }

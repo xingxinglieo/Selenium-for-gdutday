@@ -402,12 +402,12 @@
         "signature": "90a22b9bf7cc12206bc5244476d2dcd127492ff51c7d7ebd4b20c02e7721e661"
       },
       "./src/app/browser/browsers.ts": {
-        "version": "17605d1b446123b28713a2b0c7cbd640f76bcd3437a59f26289d0e5e8c10ea4c",
-        "signature": "2e53e4a21ad1f06bf273a5f7861c74fe6dcd2880256821507f911bc66e15e113"
+        "version": "df8a84f996d5c32fa0041c2ad27e79da4929c955ee0591fdc73fafe2cc71bfc2",
+        "signature": "437636be5431b9e4a625f1218d34ccb4b676811c838ed537ab7e873286931597"
       },
       "./src/app/browser/pools.ts": {
-        "version": "a8eb2ef674766e184690c416bc6d49f9624529c3a8ba7ac931edb3b8d3c6a1de",
-        "signature": "7c64084a3a6ec211f4588b737c22d05b79d020f268e316d15311ec66aa85dd2f"
+        "version": "ee92962a754eefd5f6cd97701163a68102d58e57fc93454b4108b59b2d25b623",
+        "signature": "1ff83c2a0b0d604b88741306c5d83d5b949e7ae6e08c308f74b786e93cf0e057"
       },
       "./src/middlewares/confirmbrowser.ts": {
         "version": "28df0a9191b821075488c3fd56d7e4b98bc8db2a83e1b089fe6f022e4294d6e2",
@@ -486,8 +486,8 @@
         "signature": "bbf144d4354e2aaa6439f32761f3ee798cc68d1600adab6e2a596f25269f106d"
       },
       "./src/lib/util.ts": {
-        "version": "a2f2c68326d78b42475e612be92a226d2bdb6d5028a20678190394a62d7f8438",
-        "signature": "5f3b0e0ae7d7fd70ef1cf374eb4e9906656843d0990e3dcd60baaf8192e885c6"
+        "version": "13a97eb9c7b9d483ee1407bb803bb7c25be48e739e5243216814b95c082ba68c",
+        "signature": "337bf27b72feb502e0c4af3804ee6a38d704abedc69d84b9321e3eaf005880f6"
       },
       "./src/lib/lin-validator-v2.ts": {
         "version": "7b2d2aa6af61d52886949b58ec55d7d902a6ba87ce6e6634905a6bda7c845fa0",
@@ -497,8 +497,16 @@
         "version": "683ca57dd7ef964d08748f59c10c68dd182ed18cef0608792f6b3a3b0abb720b",
         "signature": "d5c697ddf1aadd720bb797e5c89263da42efe9b533be63cf9e2f16be23675460"
       },
+      "./node_modules/axios/index.d.ts": {
+        "version": "e7df7eb51c5090db4bdcdbf9efe053530dff0e33796f40b08b1a3be6c3a351d0",
+        "signature": "e7df7eb51c5090db4bdcdbf9efe053530dff0e33796f40b08b1a3be6c3a351d0"
+      },
+      "./src/app/other/test.ts": {
+        "version": "59270bd320f871ccd6854ff13228bedece3747413d6a1af6a8347ad55aab9d38",
+        "signature": "e3bdd52f835d6ed3aa249e0cdeb2dcfdb047745976a5502bc5655c393ee97428"
+      },
       "./src/app/apis/paynet/getnetinfo.ts": {
-        "version": "0335308528355d0035db3dde6dd28088a3a0e8dcb7bf0bef386ca2981b78e811",
+        "version": "ae0653557faca2aff4b34e4e5250039f1dc1ceebdf5a19650743f3b7ddcb4b51",
         "signature": "0c11a55c7677ac9806b93ee691e494d9978c33f44612713465ca502d602790c4"
       },
       "./src/app/functions/paynet/getpayimg.ts": {
@@ -506,7 +514,7 @@
         "signature": "13ba67f14c75bf57833db7c1c26e85beb4ad77082b2df07b8b274c3932c6b006"
       },
       "./src/app/apis/paynet/getpayimg.ts": {
-        "version": "e53cda86869b22a763b5d1370a4afa20a15a9f966572bb69e91fd29708e02674",
+        "version": "b213f76021d3b9385bf4dd5ebe2ceea4e10164b94a9d4b9b9424183e79b3243c",
         "signature": "0c11a55c7677ac9806b93ee691e494d9978c33f44612713465ca502d602790c4"
       },
       "./src/app/functions/qutuo/common.ts": {
@@ -514,8 +522,8 @@
         "signature": "188fc248a29615a143764b45800f1f091d8294d188a5e9f2ce99f7599ffac248"
       },
       "./src/app/apis/qutuo/loginqutuo.ts": {
-        "version": "bffd87ae9ae730b4b45a3efbc64bed29fb76579e196dac70388cf5c9d61215ca",
-        "signature": "0990379e1efbc0c6bc399907930b1bdef70541c0969dbb8794d8b9b36c731251"
+        "version": "42b551d1dc9bc2674919f89005530ffab365cf6527c70d332eff1e4278564c30",
+        "signature": "0c11a55c7677ac9806b93ee691e494d9978c33f44612713465ca502d602790c4"
       },
       "./src/app/router.ts": {
         "version": "22645fc7ac1f22979e692ed6f35397672c1fe829d1236eb066aee468a6015f42",
@@ -530,8 +538,8 @@
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
       },
       "./src/app/apis/test/text.ts": {
-        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "version": "d183f4177d75380cfe7f7a9c00a15494ba94a041abf5a3cbf960b437f8998bfb",
+        "signature": "0c11a55c7677ac9806b93ee691e494d9978c33f44612713465ca502d602790c4"
       },
       "./src/app/crawler/base64.ts": {
         "version": "3de8f86c649a42fd43a5c43d031d4fac2c93fb15f4360928e5f1bb03a30d70c9",
@@ -1659,11 +1667,24 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
+      "./node_modules/axios/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./src/app/other/test.ts": [
+        "./node_modules/axios/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
       "./src/app/apis/paynet/getnetinfo.ts": [
         "./node_modules/@types/koa-router/index.d.ts",
         "./src/app/functions/paynet/getnetinfo.ts",
         "./src/app/validators/validators.ts",
-        "./src/lib/util.ts",
+        "./src/app/other/test.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1682,7 +1703,7 @@
         "./src/config.ts",
         "./src/app/functions/paynet/getpayimg.ts",
         "./src/app/validators/validators.ts",
-        "./src/lib/util.ts",
+        "./src/app/other/test.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1699,7 +1720,6 @@
       ],
       "./src/app/apis/qutuo/loginqutuo.ts": [
         "./node_modules/@types/koa-router/index.d.ts",
-        "./src/config.ts",
         "./src/app/functions/qutuo/common.ts",
         "./src/app/validators/validators.ts",
         "./node_modules/@types/node/fs.d.ts",
@@ -1739,6 +1759,8 @@
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
       "./src/app/apis/test/text.ts": [
+        "./node_modules/@types/koa-router/index.d.ts",
+        "./src/app/other/test.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -2856,6 +2878,12 @@
       "./src/app/validators/validators.ts": [
         "./src/lib/lin-validator-v2.ts"
       ],
+      "./node_modules/axios/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
       "./src/app/apis/paynet/getnetinfo.ts": [
         "./node_modules/@types/koa-router/index.d.ts"
       ],
@@ -2873,6 +2901,9 @@
       ],
       "./src/core/init.ts": [
         "./node_modules/@types/koa/index.d.ts"
+      ],
+      "./src/app/apis/test/text.ts": [
+        "./node_modules/@types/koa-router/index.d.ts"
       ],
       "./src/typings/index.d.ts": [
         "./node_modules/@types/koa/index.d.ts",
