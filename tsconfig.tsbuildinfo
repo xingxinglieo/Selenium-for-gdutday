@@ -498,15 +498,15 @@
         "signature": "d5c697ddf1aadd720bb797e5c89263da42efe9b533be63cf9e2f16be23675460"
       },
       "./src/app/apis/paynet/getnetinfo.ts": {
-        "version": "5529e14a8892f50ef2656db4a947d2fd86e076beddc174ee62d68155886c2a73",
-        "signature": "0990379e1efbc0c6bc399907930b1bdef70541c0969dbb8794d8b9b36c731251"
+        "version": "0335308528355d0035db3dde6dd28088a3a0e8dcb7bf0bef386ca2981b78e811",
+        "signature": "0c11a55c7677ac9806b93ee691e494d9978c33f44612713465ca502d602790c4"
       },
       "./src/app/functions/paynet/getpayimg.ts": {
         "version": "74f6b1bd95bd18fd0fda1f33f862717ef684b3e40270404164c2386d56221c71",
         "signature": "13ba67f14c75bf57833db7c1c26e85beb4ad77082b2df07b8b274c3932c6b006"
       },
       "./src/app/apis/paynet/getpayimg.ts": {
-        "version": "a075f4b9b8f03dc55898c55715750e036c8d02adf20f5ea290a7142fc1ad0a8c",
+        "version": "e53cda86869b22a763b5d1370a4afa20a15a9f966572bb69e91fd29708e02674",
         "signature": "0c11a55c7677ac9806b93ee691e494d9978c33f44612713465ca502d602790c4"
       },
       "./src/app/functions/qutuo/common.ts": {
