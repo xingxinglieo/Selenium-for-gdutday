@@ -6,6 +6,6 @@ import { router as text } from "~/app/apis/test/text";
 const routerList = [getNetInfo, getPayImg, loginQuTuo, text];
 export function registerRouter(app: Koa.Application) {
     routerList.forEach(router => {
-        app.use(router.routes());
+        app.use(router.routes()); 
     });
 }

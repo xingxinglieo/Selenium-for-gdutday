@@ -525,8 +525,12 @@
         "version": "42b551d1dc9bc2674919f89005530ffab365cf6527c70d332eff1e4278564c30",
         "signature": "0c11a55c7677ac9806b93ee691e494d9978c33f44612713465ca502d602790c4"
       },
+      "./src/app/apis/test/text.ts": {
+        "version": "4a75e8267f1291010bccb7e38c4d717926a08f7fadd6621d748ba5d393731714",
+        "signature": "0c11a55c7677ac9806b93ee691e494d9978c33f44612713465ca502d602790c4"
+      },
       "./src/app/router.ts": {
-        "version": "6f0d18d4ad5ed1ab45fea7c9bbf40056b254e45372bfed61058331903623ce72",
+        "version": "0477e32737b7aac9770af22f05a377f791132392ee8fa146658c93a4242c6b9b",
         "signature": "9c82c27a653fd14b3f7ff82ed24a7c5039af98f64cbe550e05af487bdbd1b202"
       },
       "./src/core/init.ts": {
@@ -536,10 +540,6 @@
       "./src/app.ts": {
         "version": "41bd7816d6d1a80ba7e21be1a50bfdf0d8d1ecce5d40915eb7a402d05854e3b0",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
-      },
-      "./src/app/apis/test/text.ts": {
-        "version": "4a75e8267f1291010bccb7e38c4d717926a08f7fadd6621d748ba5d393731714",
-        "signature": "0c11a55c7677ac9806b93ee691e494d9978c33f44612713465ca502d602790c4"
       },
       "./src/app/crawler/base64.ts": {
         "version": "3de8f86c649a42fd43a5c43d031d4fac2c93fb15f4360928e5f1bb03a30d70c9",
@@ -612,6 +612,7 @@
       ],
       "allowSyntheticDefaultImports": false,
       "esModuleInterop": false,
+      "watch": true,
       "configFilePath": "./tsconfig.json"
     },
     "referencedMap": {
@@ -1726,10 +1727,19 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
+      "./src/app/apis/test/text.ts": [
+        "./node_modules/@types/koa-router/index.d.ts",
+        "./src/app/other/test.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
       "./src/app/router.ts": [
         "./src/app/apis/paynet/getnetinfo.ts",
         "./src/app/apis/paynet/getpayimg.ts",
         "./src/app/apis/qutuo/loginqutuo.ts",
+        "./src/app/apis/test/text.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1752,14 +1762,6 @@
         "./src/middlewares/exception.ts",
         "./src/middlewares/confirmbrowser.ts",
         "./src/core/init.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.5/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.5/util.d.ts"
-      ],
-      "./src/app/apis/test/text.ts": [
-        "./node_modules/@types/koa-router/index.d.ts",
-        "./src/app/other/test.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -2898,11 +2900,11 @@
       "./src/app/apis/qutuo/loginqutuo.ts": [
         "./node_modules/@types/koa-router/index.d.ts"
       ],
-      "./src/core/init.ts": [
-        "./node_modules/@types/koa/index.d.ts"
-      ],
       "./src/app/apis/test/text.ts": [
         "./node_modules/@types/koa-router/index.d.ts"
+      ],
+      "./src/core/init.ts": [
+        "./node_modules/@types/koa/index.d.ts"
       ],
       "./src/typings/index.d.ts": [
         "./node_modules/@types/koa/index.d.ts",
