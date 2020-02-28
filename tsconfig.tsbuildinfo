@@ -526,7 +526,7 @@
         "signature": "0c11a55c7677ac9806b93ee691e494d9978c33f44612713465ca502d602790c4"
       },
       "./src/app/router.ts": {
-        "version": "22645fc7ac1f22979e692ed6f35397672c1fe829d1236eb066aee468a6015f42",
+        "version": "6f0d18d4ad5ed1ab45fea7c9bbf40056b254e45372bfed61058331903623ce72",
         "signature": "9c82c27a653fd14b3f7ff82ed24a7c5039af98f64cbe550e05af487bdbd1b202"
       },
       "./src/core/init.ts": {
@@ -538,7 +538,7 @@
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
       },
       "./src/app/apis/test/text.ts": {
-        "version": "d183f4177d75380cfe7f7a9c00a15494ba94a041abf5a3cbf960b437f8998bfb",
+        "version": "4a75e8267f1291010bccb7e38c4d717926a08f7fadd6621d748ba5d393731714",
         "signature": "0c11a55c7677ac9806b93ee691e494d9978c33f44612713465ca502d602790c4"
       },
       "./src/app/crawler/base64.ts": {
@@ -612,7 +612,6 @@
       ],
       "allowSyntheticDefaultImports": false,
       "esModuleInterop": false,
-      "watch": true,
       "configFilePath": "./tsconfig.json"
     },
     "referencedMap": {
