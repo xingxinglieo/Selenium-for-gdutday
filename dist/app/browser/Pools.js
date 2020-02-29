@@ -5,11 +5,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const Browsers_1 = require("./Browsers");
 const Browsers_2 = require("./Browsers");
 class BroswerPool {
-    constructor(BrowserType, { plength = 2, interval = Browsers_1.Browser.timeout, closeTimeout = 30000 } = {}) {
+    constructor(BrowserType, { plength = 2, watcheInterval = Browsers_1.Browser.timeout, closeInterval = 5 * 60 * 1000, closeTimeout = 30000, } = {}) {
         this.BrowserType = BrowserType;
         this.pools = [];
         this.plength = plength;
-        this.interval = interval;
+        this.watchInterval = watcheInterval;
+        this.closeInterval = closeInterval;
         this.closeTimeout = closeTimeout;
         this.confim();
         this.watch();
@@ -53,7 +54,14 @@ class BroswerPool {
         }, this.closeTimeout);
     }
     watch() {
-        setInterval(() => this.confim(), this.interval);
+        setInterval(() => this.confim(), this.watchInterval);
+        setInterval(async () => {
+            if (this.pools.length >= this.plength) {
+                const browser = await this.getBroswer();
+                browser.instance.close();
+                this.confim();
+            }
+        }, this.closeInterval);
     }
 }
 exports.BroswerPool = BroswerPool;

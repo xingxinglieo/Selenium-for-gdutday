@@ -378,8 +378,8 @@
         "signature": "9aeeff88282d4e0049bce071d79dce3e543c2ecefdb9fcb683e68733bcf2cb7d"
       },
       "./src/core/http-exception.ts": {
-        "version": "b5facafc84921f44c4d763d48593bba257cf82b6518fe60a9b6dd4181961c3de",
-        "signature": "91d0e34e983debac0eec1ed6f0f8e9f298690bfeab1bcd851f56dd4015445345"
+        "version": "4a1cc7d92edeb210ab079b5ae9187ec6b684186e7c2f63424de74bccc60de1cc",
+        "signature": "289d7bc732f8b9c48c2117186d040dcabc74789c0d4aaa10d23e01d29eccb283"
       },
       "./src/middlewares/exception.ts": {
         "version": "ecdb5890fd96a46a1649a9e206accf4592a5081f2bc73b17d2e805407150ec6d",
@@ -401,13 +401,21 @@
         "version": "8455da24c3c6d528374a3e8906f2fe7a81b945045bf458c68240a1cc38b325d3",
         "signature": "90a22b9bf7cc12206bc5244476d2dcd127492ff51c7d7ebd4b20c02e7721e661"
       },
+      "./node_modules/axios/index.d.ts": {
+        "version": "e7df7eb51c5090db4bdcdbf9efe053530dff0e33796f40b08b1a3be6c3a351d0",
+        "signature": "e7df7eb51c5090db4bdcdbf9efe053530dff0e33796f40b08b1a3be6c3a351d0"
+      },
+      "./src/app/other/test.ts": {
+        "version": "59270bd320f871ccd6854ff13228bedece3747413d6a1af6a8347ad55aab9d38",
+        "signature": "e3bdd52f835d6ed3aa249e0cdeb2dcfdb047745976a5502bc5655c393ee97428"
+      },
       "./src/app/browser/browsers.ts": {
-        "version": "df8a84f996d5c32fa0041c2ad27e79da4929c955ee0591fdc73fafe2cc71bfc2",
-        "signature": "437636be5431b9e4a625f1218d34ccb4b676811c838ed537ab7e873286931597"
+        "version": "f616d628f6e71f17258c6c28d9e0d0698593291e3f31d84740708ffac2df8cae",
+        "signature": "4692d00bb29f5ae4d6c0bb7d3e4de2ea993af957369ecd028e5d0a63f481c58e"
       },
       "./src/app/browser/pools.ts": {
-        "version": "ee92962a754eefd5f6cd97701163a68102d58e57fc93454b4108b59b2d25b623",
-        "signature": "1ff83c2a0b0d604b88741306c5d83d5b949e7ae6e08c308f74b786e93cf0e057"
+        "version": "5bf1a8a01f727b8cea015326970cea9a15c53570d4fbf1f8fdef5b8b9ad8e072",
+        "signature": "407194884e8dadaeeee2fd0aab7906cfa2f201561d5865c8c36ad48c0c92d349"
       },
       "./src/middlewares/confirmbrowser.ts": {
         "version": "28df0a9191b821075488c3fd56d7e4b98bc8db2a83e1b089fe6f022e4294d6e2",
@@ -497,16 +505,8 @@
         "version": "683ca57dd7ef964d08748f59c10c68dd182ed18cef0608792f6b3a3b0abb720b",
         "signature": "d5c697ddf1aadd720bb797e5c89263da42efe9b533be63cf9e2f16be23675460"
       },
-      "./node_modules/axios/index.d.ts": {
-        "version": "e7df7eb51c5090db4bdcdbf9efe053530dff0e33796f40b08b1a3be6c3a351d0",
-        "signature": "e7df7eb51c5090db4bdcdbf9efe053530dff0e33796f40b08b1a3be6c3a351d0"
-      },
-      "./src/app/other/test.ts": {
-        "version": "59270bd320f871ccd6854ff13228bedece3747413d6a1af6a8347ad55aab9d38",
-        "signature": "e3bdd52f835d6ed3aa249e0cdeb2dcfdb047745976a5502bc5655c393ee97428"
-      },
       "./src/app/apis/paynet/getnetinfo.ts": {
-        "version": "ae0653557faca2aff4b34e4e5250039f1dc1ceebdf5a19650743f3b7ddcb4b51",
+        "version": "0ea7a22008bb67404017edd18dfebf4ac834a60f13e10f4a193f6879fd929af3",
         "signature": "0c11a55c7677ac9806b93ee691e494d9978c33f44612713465ca502d602790c4"
       },
       "./src/app/functions/paynet/getpayimg.ts": {
@@ -514,7 +514,7 @@
         "signature": "13ba67f14c75bf57833db7c1c26e85beb4ad77082b2df07b8b274c3932c6b006"
       },
       "./src/app/apis/paynet/getpayimg.ts": {
-        "version": "b213f76021d3b9385bf4dd5ebe2ceea4e10164b94a9d4b9b9424183e79b3243c",
+        "version": "00345bba3f3d5d33c3541f954848c21079ce6508f7f673091c5a1f5f64159ac6",
         "signature": "0c11a55c7677ac9806b93ee691e494d9978c33f44612713465ca502d602790c4"
       },
       "./src/app/functions/qutuo/common.ts": {
@@ -1350,11 +1350,26 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
+      "./node_modules/axios/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./src/app/other/test.ts": [
+        "./node_modules/axios/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
       "./src/app/browser/browsers.ts": [
         "./node_modules/@types/puppeteer/index.d.ts",
         "./node_modules/@types/puppeteer/devicedescriptors.d.ts",
         "./src/config.ts",
         "./src/app/static.ts",
+        "./src/app/other/test.ts",
+        "./src/core/http-exception.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1667,24 +1682,12 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
-      "./node_modules/axios/index.d.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.5/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.5/util.d.ts"
-      ],
-      "./src/app/other/test.ts": [
-        "./node_modules/axios/index.d.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.5/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.5/util.d.ts"
-      ],
       "./src/app/apis/paynet/getnetinfo.ts": [
         "./node_modules/@types/koa-router/index.d.ts",
         "./src/app/functions/paynet/getnetinfo.ts",
         "./src/app/validators/validators.ts",
         "./src/app/other/test.ts",
+        "./src/core/http-exception.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1704,6 +1707,7 @@
         "./src/app/functions/paynet/getpayimg.ts",
         "./src/app/validators/validators.ts",
         "./src/app/other/test.ts",
+        "./src/core/http-exception.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -2602,6 +2606,12 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
+      "./node_modules/axios/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
       "./src/app/browser/browsers.ts": [
         "./node_modules/@types/puppeteer/index.d.ts"
       ],
@@ -2878,12 +2888,6 @@
       ],
       "./src/app/validators/validators.ts": [
         "./src/lib/lin-validator-v2.ts"
-      ],
-      "./node_modules/axios/index.d.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.5/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
       "./src/app/apis/paynet/getnetinfo.ts": [
         "./node_modules/@types/koa-router/index.d.ts"

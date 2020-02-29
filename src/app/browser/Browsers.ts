@@ -2,6 +2,8 @@ import * as puppeteer from "puppeteer";
 import * as devices from "puppeteer/DeviceDescriptors";
 import { config } from "~/config";
 import { urls } from "~/app/static";
+import { available } from "~/app/other/test";
+import { ServerMaintenance } from "~/core/http-exception";
 let uid = 0;
 //实例类
 export class Browser {
@@ -27,29 +29,41 @@ export class Browser {
     }
 }
 //操作类工厂
-type asyncOperation = (_: puppeteer.Page) => Promise<unknown>;
-async function defaultfun(_: puppeteer.Page): Promise<any> {}
+async function defaultGoto(_: puppeteer.Page): Promise<unknown> {
+    return;
+}
+async function defaultLaunch(_?: puppeteer.Browser): Promise<unknown> {
+    return;
+}
 export class BrowserType {
-    beforeGoto: asyncOperation;
-    afterGoto: asyncOperation;
+    beforeGoto: typeof defaultGoto;
+    afterGoto: typeof defaultGoto;
+    beforeLaunch: typeof defaultLaunch;
+    afterLaunch: typeof defaultLaunch;
     isPhone: boolean;
     constructor(
         private url: string,
         {
-            beforeGoto = defaultfun,
-            afterGoto = defaultfun,
+            beforeLaunch = defaultLaunch,
+            afterLaunch = defaultLaunch,
+            beforeGoto = defaultGoto,
+            afterGoto = defaultGoto,
             isPhone = false,
         } = {}
     ) {
         this.beforeGoto = beforeGoto;
         this.afterGoto = afterGoto;
+        this.beforeLaunch = beforeLaunch;
+        this.afterLaunch = afterLaunch;
         this.isPhone = isPhone;
     }
     async createBrowser() {
+        await this.beforeLaunch();
         const browser = new Browser();
-        await browser.launchBrowser();
-        if (this.isPhone) await browser.page.emulate(devices["iPhone X"]);
         try {
+            await browser.launchBrowser();
+            await this.afterLaunch(browser.instance);
+            if (this.isPhone) await browser.page.emulate(devices["iPhone X"]);
             await this.firstStep(browser.page);
             return browser;
         } catch (err) {
@@ -99,7 +113,16 @@ class QuTuo {
         else return;
     }
 }
-export const PayNetBrowser = new BrowserType(urls.SCHOOL_LOGIN);
+class School {
+    static async isMaintenance() {
+        if (!available) {
+            throw new ServerMaintenance("学校网站维护");
+        }
+    }
+}
+export const PayNetBrowser = new BrowserType(urls.SCHOOL_LOGIN, {
+    beforeLaunch: School.isMaintenance,
+});
 export const QuTuoBrowser = new BrowserType(urls.QUTUO_LOGIN_SELECT, {
     isPhone: true,
     afterGoto: QuTuo.firstStep,

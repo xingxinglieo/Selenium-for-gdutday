@@ -5,14 +5,21 @@ import { QuTuoBrowser, PayNetBrowser } from "./Browsers";
 export class BroswerPool {
     pools: Browser[] = [];
     plength: number;
-    interval: number;
+    watchInterval: number;
+    closeInterval: number;
     closeTimeout: number;
     constructor(
         public BrowserType: BrowserType,
-        { plength = 2, interval = Browser.timeout, closeTimeout = 30000 } = {}
+        {
+            plength = 2,
+            watcheInterval = Browser.timeout,
+            closeInterval = 5 * 60 * 1000,
+            closeTimeout = 30000,
+        } = {}
     ) {
         this.plength = plength;
-        this.interval = interval;
+        this.watchInterval = watcheInterval;
+        this.closeInterval = closeInterval;
         this.closeTimeout = closeTimeout;
         this.confim();
         this.watch();
@@ -56,7 +63,14 @@ export class BroswerPool {
         }, this.closeTimeout);
     }
     private watch() {
-        setInterval(() => this.confim(), this.interval);
+        setInterval(() => this.confim(), this.watchInterval);
+        setInterval(async () => {
+            if (this.pools.length >= this.plength) {
+                const browser = await this.getBroswer();
+                browser.instance.close();
+                this.confim();
+            }
+        }, this.closeInterval);
     }
 }
 export const QuTuoBroswerPool = new BroswerPool(QuTuoBrowser);

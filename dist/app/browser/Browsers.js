@@ -4,6 +4,8 @@ const puppeteer = require("puppeteer");
 const devices = require("puppeteer/DeviceDescriptors");
 const config_1 = require("~/config");
 const static_1 = require("~/app/static");
+const test_1 = require("~/app/other/test");
+const http_exception_1 = require("~/core/http-exception");
 let uid = 0;
 //实例类
 class Browser {
@@ -26,20 +28,30 @@ class Browser {
 exports.Browser = Browser;
 //创建一个浏览器的到成功最大接受时间
 Browser.timeout = 20000;
-async function defaultfun(_) { }
+//操作类工厂
+async function defaultGoto(_) {
+    return;
+}
+async function defaultLaunch(_) {
+    return;
+}
 class BrowserType {
-    constructor(url, { beforeGoto = defaultfun, afterGoto = defaultfun, isPhone = false, } = {}) {
+    constructor(url, { beforeLaunch = defaultLaunch, afterLaunch = defaultLaunch, beforeGoto = defaultGoto, afterGoto = defaultGoto, isPhone = false, } = {}) {
         this.url = url;
         this.beforeGoto = beforeGoto;
         this.afterGoto = afterGoto;
+        this.beforeLaunch = beforeLaunch;
+        this.afterLaunch = afterLaunch;
         this.isPhone = isPhone;
     }
     async createBrowser() {
+        await this.beforeLaunch();
         const browser = new Browser();
-        await browser.launchBrowser();
-        if (this.isPhone)
-            await browser.page.emulate(devices["iPhone X"]);
         try {
+            await browser.launchBrowser();
+            await this.afterLaunch(browser.instance);
+            if (this.isPhone)
+                await browser.page.emulate(devices["iPhone X"]);
             await this.firstStep(browser.page);
             return browser;
         }
@@ -90,7 +102,16 @@ class QuTuo {
     }
 }
 QuTuo.schoolName = "广东工业大学";
-exports.PayNetBrowser = new BrowserType(static_1.urls.SCHOOL_LOGIN);
+class School {
+    static async isMaintenance() {
+        if (!test_1.available) {
+            throw new http_exception_1.ServerMaintenance("学校网站维护");
+        }
+    }
+}
+exports.PayNetBrowser = new BrowserType(static_1.urls.SCHOOL_LOGIN, {
+    beforeLaunch: School.isMaintenance,
+});
 exports.QuTuoBrowser = new BrowserType(static_1.urls.QUTUO_LOGIN_SELECT, {
     isPhone: true,
     afterGoto: QuTuo.firstStep,
