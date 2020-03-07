@@ -385,15 +385,15 @@
         "version": "ecdb5890fd96a46a1649a9e206accf4592a5081f2bc73b17d2e805407150ec6d",
         "signature": "d10ac8b2b4083bc3112f7517d960f7960c5a39196066df9bb12572c49d116da8"
       },
-      "./node_modules/_@types_puppeteer@2.0.1@@types/puppeteer/errors.d.ts": {
+      "./node_modules/@types/puppeteer/errors.d.ts": {
         "version": "24074eb89fe21d5d7d8a5ed86e6c56939cf32d533f68bae213b0cdac74e03d3b",
         "signature": "24074eb89fe21d5d7d8a5ed86e6c56939cf32d533f68bae213b0cdac74e03d3b"
       },
-      "./node_modules/_@types_puppeteer@2.0.1@@types/puppeteer/devicedescriptors.d.ts": {
+      "./node_modules/@types/puppeteer/devicedescriptors.d.ts": {
         "version": "14a0185954b9d1130a9ab87c75011a97ac48c0253fd37a344a066c2c63fc59fb",
         "signature": "14a0185954b9d1130a9ab87c75011a97ac48c0253fd37a344a066c2c63fc59fb"
       },
-      "./node_modules/_@types_puppeteer@2.0.1@@types/puppeteer/index.d.ts": {
+      "./node_modules/@types/puppeteer/index.d.ts": {
         "version": "688569813a054fe56083a123a3ea32dcaa04d07719a1adca36c6387349fd6da2",
         "signature": "688569813a054fe56083a123a3ea32dcaa04d07719a1adca36c6387349fd6da2"
       },
@@ -541,8 +541,12 @@
         "version": "19a6cb9bedbc45327572f2282774ee01038c5f04461e3619f9a760b23091758b",
         "signature": "0c11a55c7677ac9806b93ee691e494d9978c33f44612713465ca502d602790c4"
       },
+      "./node_modules/@types/marked/index.d.ts": {
+        "version": "2c423af5734b6405bc46212b8dc002df69151003a4e34822f95456603d2d2d17",
+        "signature": "2c423af5734b6405bc46212b8dc002df69151003a4e34822f95456603d2d2d17"
+      },
       "./src/app/apis/update/update-message.ts": {
-        "version": "219fa64c0a11d065e95c4e69697213b8eb160ac375674d1bdf188bee31d6f6ff",
+        "version": "a7f5fd664df5ca37187da79ecb00d23b3555093750850eae88b17e235d313b67",
         "signature": "de9294c283e40d7be0ced6341dc8f876b22242b097703271ee2f6cde50d292a9"
       },
       "./src/app/apis/update/update.ts": {
@@ -728,6 +732,7 @@
       ],
       "allowSyntheticDefaultImports": false,
       "esModuleInterop": false,
+      "watch": true,
       "configFilePath": "./tsconfig.json"
     },
     "referencedMap": {
@@ -1436,23 +1441,23 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
-      "./node_modules/_@types_puppeteer@2.0.1@@types/puppeteer/errors.d.ts": [
+      "./node_modules/@types/puppeteer/errors.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
-      "./node_modules/_@types_puppeteer@2.0.1@@types/puppeteer/devicedescriptors.d.ts": [
+      "./node_modules/@types/puppeteer/devicedescriptors.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
-      "./node_modules/_@types_puppeteer@2.0.1@@types/puppeteer/index.d.ts": [
+      "./node_modules/@types/puppeteer/index.d.ts": [
         "./node_modules/@types/node/events.d.ts",
         "./node_modules/@types/node/child_process.d.ts",
-        "./node_modules/_@types_puppeteer@2.0.1@@types/puppeteer/errors.d.ts",
-        "./node_modules/_@types_puppeteer@2.0.1@@types/puppeteer/devicedescriptors.d.ts",
+        "./node_modules/@types/puppeteer/errors.d.ts",
+        "./node_modules/@types/puppeteer/devicedescriptors.d.ts",
         "./node_modules/@types/node/ts3.5/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
@@ -1479,8 +1484,8 @@
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
       "./src/app/browser/browsers.ts": [
-        "./node_modules/_@types_puppeteer@2.0.1@@types/puppeteer/index.d.ts",
-        "./node_modules/_@types_puppeteer@2.0.1@@types/puppeteer/devicedescriptors.d.ts",
+        "./node_modules/@types/puppeteer/index.d.ts",
+        "./node_modules/@types/puppeteer/devicedescriptors.d.ts",
         "./src/config.ts",
         "./src/app/static.ts",
         "./src/app/other/test.ts",
@@ -1878,8 +1883,16 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
+      "./node_modules/@types/marked/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
       "./src/app/apis/update/update-message.ts": [
         "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/marked/index.d.ts",
+        "./node_modules/@types/cheerio/index.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
@@ -1940,7 +1953,7 @@
       ],
       "./src/typings/index.d.ts": [
         "./node_modules/@types/koa/index.d.ts",
-        "./node_modules/_@types_puppeteer@2.0.1@@types/puppeteer/index.d.ts",
+        "./node_modules/@types/puppeteer/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -2938,23 +2951,23 @@
       "./src/middlewares/exception.ts": [
         "./node_modules/@types/koa/index.d.ts"
       ],
-      "./node_modules/_@types_puppeteer@2.0.1@@types/puppeteer/errors.d.ts": [
+      "./node_modules/@types/puppeteer/errors.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
-      "./node_modules/_@types_puppeteer@2.0.1@@types/puppeteer/devicedescriptors.d.ts": [
+      "./node_modules/@types/puppeteer/devicedescriptors.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
-      "./node_modules/_@types_puppeteer@2.0.1@@types/puppeteer/index.d.ts": [
+      "./node_modules/@types/puppeteer/index.d.ts": [
         "./node_modules/@types/node/events.d.ts",
         "./node_modules/@types/node/child_process.d.ts",
-        "./node_modules/_@types_puppeteer@2.0.1@@types/puppeteer/errors.d.ts",
-        "./node_modules/_@types_puppeteer@2.0.1@@types/puppeteer/devicedescriptors.d.ts",
+        "./node_modules/@types/puppeteer/errors.d.ts",
+        "./node_modules/@types/puppeteer/devicedescriptors.d.ts",
         "./node_modules/@types/node/ts3.5/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
@@ -3272,6 +3285,15 @@
       "./src/app/apis/school/login.ts": [
         "./node_modules/@types/koa-router/index.d.ts"
       ],
+      "./node_modules/@types/marked/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./src/app/apis/update/update.ts": [
+        "./node_modules/@types/koa-router/index.d.ts"
+      ],
       "./src/core/init.ts": [
         "./node_modules/@types/koa/index.d.ts"
       ],
@@ -3532,9 +3554,6 @@
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
-      ],
-      "./src/app/apis/update/update.ts": [
-        "./node_modules/@types/koa-router/index.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": []

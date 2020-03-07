@@ -47,7 +47,8 @@
 
   },
   "include": [ /* 需要编译的文件 */
-    "src/**/*.ts"
+    "src/**/*.ts",
+    "src/**/*.md"
   ],
   "exclude": [ /* 编译需要排除的文件 */
     "node_modules/**"
