@@ -5,7 +5,7 @@ exports.available = true;
 setInterval(async () => {
     try {
         await axios_1.default.get("https://selfmanager.gdut.edu.cn/", {
-            timeout: 300000,
+            timeout: 60000,
         });
         exports.available = true;
     }

@@ -385,17 +385,17 @@
         "version": "ecdb5890fd96a46a1649a9e206accf4592a5081f2bc73b17d2e805407150ec6d",
         "signature": "d10ac8b2b4083bc3112f7517d960f7960c5a39196066df9bb12572c49d116da8"
       },
-      "./node_modules/@types/puppeteer/errors.d.ts": {
+      "./node_modules/_@types_puppeteer@2.0.1@@types/puppeteer/errors.d.ts": {
         "version": "24074eb89fe21d5d7d8a5ed86e6c56939cf32d533f68bae213b0cdac74e03d3b",
         "signature": "24074eb89fe21d5d7d8a5ed86e6c56939cf32d533f68bae213b0cdac74e03d3b"
       },
-      "./node_modules/@types/puppeteer/devicedescriptors.d.ts": {
+      "./node_modules/_@types_puppeteer@2.0.1@@types/puppeteer/devicedescriptors.d.ts": {
         "version": "14a0185954b9d1130a9ab87c75011a97ac48c0253fd37a344a066c2c63fc59fb",
         "signature": "14a0185954b9d1130a9ab87c75011a97ac48c0253fd37a344a066c2c63fc59fb"
       },
-      "./node_modules/@types/puppeteer/index.d.ts": {
-        "version": "3cfa2d1cc8a66e3efdc0b60c7bb5089b1007c1c430c1db336627651213406b9a",
-        "signature": "3cfa2d1cc8a66e3efdc0b60c7bb5089b1007c1c430c1db336627651213406b9a"
+      "./node_modules/_@types_puppeteer@2.0.1@@types/puppeteer/index.d.ts": {
+        "version": "688569813a054fe56083a123a3ea32dcaa04d07719a1adca36c6387349fd6da2",
+        "signature": "688569813a054fe56083a123a3ea32dcaa04d07719a1adca36c6387349fd6da2"
       },
       "./src/app/static.ts": {
         "version": "8455da24c3c6d528374a3e8906f2fe7a81b945045bf458c68240a1cc38b325d3",
@@ -406,7 +406,7 @@
         "signature": "e7df7eb51c5090db4bdcdbf9efe053530dff0e33796f40b08b1a3be6c3a351d0"
       },
       "./src/app/other/test.ts": {
-        "version": "59270bd320f871ccd6854ff13228bedece3747413d6a1af6a8347ad55aab9d38",
+        "version": "619ee4fdb01c6e685ba0d3527c230ec3267286e344a6080f6e7d57cdcce5e9ec",
         "signature": "e3bdd52f835d6ed3aa249e0cdeb2dcfdb047745976a5502bc5655c393ee97428"
       },
       "./src/app/browser/browsers.ts": {
@@ -529,8 +529,28 @@
         "version": "4a75e8267f1291010bccb7e38c4d717926a08f7fadd6621d748ba5d393731714",
         "signature": "0c11a55c7677ac9806b93ee691e494d9978c33f44612713465ca502d602790c4"
       },
+      "./node_modules/@types/cheerio/index.d.ts": {
+        "version": "8098228829e1e526875bb83562d96c23648aabfab6d8a07881fe23251e853822",
+        "signature": "8098228829e1e526875bb83562d96c23648aabfab6d8a07881fe23251e853822"
+      },
+      "./src/app/functions/school/common.ts": {
+        "version": "a472595a6388ebd4c1ac9a2a91d732c81b69b8ac6de52bc2aa13a6f60ad8c60f",
+        "signature": "d17e0b94cef258b6f8390a99aa54502c4d69e03c85f81029ca741d9b745c4e93"
+      },
+      "./src/app/apis/school/login.ts": {
+        "version": "19a6cb9bedbc45327572f2282774ee01038c5f04461e3619f9a760b23091758b",
+        "signature": "0c11a55c7677ac9806b93ee691e494d9978c33f44612713465ca502d602790c4"
+      },
+      "./src/app/apis/update/update-message.ts": {
+        "version": "219fa64c0a11d065e95c4e69697213b8eb160ac375674d1bdf188bee31d6f6ff",
+        "signature": "de9294c283e40d7be0ced6341dc8f876b22242b097703271ee2f6cde50d292a9"
+      },
+      "./src/app/apis/update/update.ts": {
+        "version": "bfd8a23c0c8ce6f596ae8db0004d27bee6f1ce0c47725d7d78f240ed0856ed35",
+        "signature": "0c11a55c7677ac9806b93ee691e494d9978c33f44612713465ca502d602790c4"
+      },
       "./src/app/router.ts": {
-        "version": "0477e32737b7aac9770af22f05a377f791132392ee8fa146658c93a4242c6b9b",
+        "version": "de76370980542c817cbb341351ee3876a10b8f32ab3b4f454b30f64e6b6fceae",
         "signature": "9c82c27a653fd14b3f7ff82ed24a7c5039af98f64cbe550e05af487bdbd1b202"
       },
       "./src/core/init.ts": {
@@ -557,6 +577,26 @@
         "version": "2879df6545adc107fab5157af66b3b9f3f1d0ec5be70916065475a614f7724f5",
         "signature": "2879df6545adc107fab5157af66b3b9f3f1d0ec5be70916065475a614f7724f5"
       },
+      "./node_modules/@types/caseless/index.d.ts": {
+        "version": "5343f3c160282dfbaab9af350119a0c3b59b7076ef0117bb5995a66e240dab28",
+        "signature": "5343f3c160282dfbaab9af350119a0c3b59b7076ef0117bb5995a66e240dab28"
+      },
+      "./node_modules/@types/request/node_modules/form-data/index.d.ts": {
+        "version": "e91ad231af87f864b3f07cd0e39b1cf6c133988156f087c1c3ccb0a5491c9115",
+        "signature": "e91ad231af87f864b3f07cd0e39b1cf6c133988156f087c1c3ccb0a5491c9115"
+      },
+      "./node_modules/@types/tough-cookie/index.d.ts": {
+        "version": "078468c2ba94084260bb46220e558c2cfae12224e7e814a79795eb7c7928df18",
+        "signature": "078468c2ba94084260bb46220e558c2cfae12224e7e814a79795eb7c7928df18"
+      },
+      "./node_modules/@types/request/index.d.ts": {
+        "version": "d3c7c28e24c242c1054c6865bb6704914dfdb212063701c6fb02a8a477d00098",
+        "signature": "d3c7c28e24c242c1054c6865bb6704914dfdb212063701c6fb02a8a477d00098"
+      },
+      "./src/typings/crawler/crawler.d.ts": {
+        "version": "c88ae327e1bba75a3a9d995dc77d6da3586641b31c82079f91a4b1232ae8ed66",
+        "signature": "c88ae327e1bba75a3a9d995dc77d6da3586641b31c82079f91a4b1232ae8ed66"
+      },
       "./node_modules/@types/basic-auth/index.d.ts": {
         "version": "6a8b28cfa7acde40d8274a46cd83917745cdbc7e8d9579903b1c6e4eb1f97ec0",
         "signature": "6a8b28cfa7acde40d8274a46cd83917745cdbc7e8d9579903b1c6e4eb1f97ec0"
@@ -565,17 +605,93 @@
         "version": "b5722d23e4601c34b68c07ac5fb8d014a0a429e8699a982f0868f98227dc9d75",
         "signature": "b5722d23e4601c34b68c07ac5fb8d014a0a429e8699a982f0868f98227dc9d75"
       },
+      "./node_modules/@types/chromedriver/index.d.ts": {
+        "version": "03755b1da78aa9aa4b3b0f0d42768395f31240ef0e62ee8474860f7aed8084f5",
+        "signature": "03755b1da78aa9aa4b3b0f0d42768395f31240ef0e62ee8474860f7aed8084f5"
+      },
+      "./node_modules/@types/continuation-local-storage/index.d.ts": {
+        "version": "fec05bdb75bfc1586a6587734da493918f4415a1c3b824eb78ba7d07df88ff3f",
+        "signature": "fec05bdb75bfc1586a6587734da493918f4415a1c3b824eb78ba7d07df88ff3f"
+      },
       "./node_modules/@types/jsonwebtoken/index.d.ts": {
         "version": "c6afd9a9be5f970240ff60b33f4a0262a5a8ea1cad4b6ea5b482d335639748f7",
         "signature": "c6afd9a9be5f970240ff60b33f4a0262a5a8ea1cad4b6ea5b482d335639748f7"
       },
-      "./node_modules/@types/mime-types/index.d.ts": {
+      "./node_modules/_@types_mime-types@2.1.0@@types/mime-types/index.d.ts": {
         "version": "f17dd220e27f33e3f1c5bb6f00999420520a6dd1e7f71ee66c11cfc1c2990f20",
         "signature": "f17dd220e27f33e3f1c5bb6f00999420520a6dd1e7f71ee66c11cfc1c2990f20"
       },
       "./node_modules/@types/require-directory/index.d.ts": {
         "version": "98ab7a30968f410bd5281beb7b79b61e21dde5a2f28c7c7d072cc82e878719c4",
         "signature": "98ab7a30968f410bd5281beb7b79b61e21dde5a2f28c7c7d072cc82e878719c4"
+      },
+      "./node_modules/@types/selenium-webdriver/http.d.ts": {
+        "version": "22429444f81efbaa7a2875cdaa5a03709b951fcb32ddc6dd6e92b759d6c5df1f",
+        "signature": "22429444f81efbaa7a2875cdaa5a03709b951fcb32ddc6dd6e92b759d6c5df1f"
+      },
+      "./node_modules/@types/selenium-webdriver/remote.d.ts": {
+        "version": "e4ab9c261d87997afc6780060066be58404a67a64abc33fad7ce3411952483b7",
+        "signature": "e4ab9c261d87997afc6780060066be58404a67a64abc33fad7ce3411952483b7"
+      },
+      "./node_modules/@types/selenium-webdriver/chrome.d.ts": {
+        "version": "d6e69ff9c9a53db0aeb247e3913d486db8c6dbbb429a77e7c60aa0795fd9f621",
+        "signature": "d6e69ff9c9a53db0aeb247e3913d486db8c6dbbb429a77e7c60aa0795fd9f621"
+      },
+      "./node_modules/@types/selenium-webdriver/edge.d.ts": {
+        "version": "1331e7de269c86ee9d7d1cbc1930d3febcd798c542c4a84a1a62b36458e79e3b",
+        "signature": "1331e7de269c86ee9d7d1cbc1930d3febcd798c542c4a84a1a62b36458e79e3b"
+      },
+      "./node_modules/@types/selenium-webdriver/firefox.d.ts": {
+        "version": "4fa90050ace2751feb9bdc41135262d0adfd97344a9fe44b843883686f6631b3",
+        "signature": "4fa90050ace2751feb9bdc41135262d0adfd97344a9fe44b843883686f6631b3"
+      },
+      "./node_modules/@types/selenium-webdriver/ie.d.ts": {
+        "version": "4eaa04b9ec6e82eed497f92a4ec5f1a85150df98f2a2a3c678bdc3ce441d6424",
+        "signature": "4eaa04b9ec6e82eed497f92a4ec5f1a85150df98f2a2a3c678bdc3ce441d6424"
+      },
+      "./node_modules/@types/selenium-webdriver/lib/by.d.ts": {
+        "version": "3fd0e852461de166c450c9c84161f954f7c125ddf03fd62660475efb7d43be88",
+        "signature": "3fd0e852461de166c450c9c84161f954f7c125ddf03fd62660475efb7d43be88"
+      },
+      "./node_modules/@types/selenium-webdriver/lib/symbols.d.ts": {
+        "version": "17febb4c8e7346e379bc75b883e671412b315b404eb7a02d6e1b54cdbb1012ae",
+        "signature": "17febb4c8e7346e379bc75b883e671412b315b404eb7a02d6e1b54cdbb1012ae"
+      },
+      "./node_modules/@types/selenium-webdriver/lib/capabilities.d.ts": {
+        "version": "3d1754a1197828f3d4c0871a0ab9df2605b3d6b0f37e724b01ca6392a1a8e7e4",
+        "signature": "3d1754a1197828f3d4c0871a0ab9df2605b3d6b0f37e724b01ca6392a1a8e7e4"
+      },
+      "./node_modules/@types/selenium-webdriver/lib/command.d.ts": {
+        "version": "71dce184668f5ef3ce1d4892b7381a9e0bfded902945d9f70257f4fb35b63fbd",
+        "signature": "71dce184668f5ef3ce1d4892b7381a9e0bfded902945d9f70257f4fb35b63fbd"
+      },
+      "./node_modules/@types/selenium-webdriver/lib/input.d.ts": {
+        "version": "ef0151031c10e5bfe71453926873e41aaa74ae0431d8b4c7e665890887bfef22",
+        "signature": "ef0151031c10e5bfe71453926873e41aaa74ae0431d8b4c7e665890887bfef22"
+      },
+      "./node_modules/@types/selenium-webdriver/lib/promise.d.ts": {
+        "version": "2e404ec9d1cebacc94ab5fcc778b1467fcf652ffeb57d8447f106629eb3bd213",
+        "signature": "2e404ec9d1cebacc94ab5fcc778b1467fcf652ffeb57d8447f106629eb3bd213"
+      },
+      "./node_modules/@types/selenium-webdriver/lib/logging.d.ts": {
+        "version": "e590f4a9605de76c01bec81f8d2088663e6da9c55b9f80493c8b146c97be6a3e",
+        "signature": "e590f4a9605de76c01bec81f8d2088663e6da9c55b9f80493c8b146c97be6a3e"
+      },
+      "./node_modules/@types/selenium-webdriver/lib/until.d.ts": {
+        "version": "62677ea5af47584bcfa1b4b9d096d08d57dd505488098435983fec84fb8b9bb9",
+        "signature": "62677ea5af47584bcfa1b4b9d096d08d57dd505488098435983fec84fb8b9bb9"
+      },
+      "./node_modules/@types/selenium-webdriver/safari.d.ts": {
+        "version": "5734fbfc6e74f89898a4f98f9d6dc07de8241caab4223729a7f8e263d356c99a",
+        "signature": "5734fbfc6e74f89898a4f98f9d6dc07de8241caab4223729a7f8e263d356c99a"
+      },
+      "./node_modules/@types/selenium-webdriver/index.d.ts": {
+        "version": "26b9331d540c6f4288929eb2fbff3273745a9803adfbb05584c287d983e5eb3c",
+        "signature": "26b9331d540c6f4288929eb2fbff3273745a9803adfbb05584c287d983e5eb3c"
+      },
+      "./node_modules/@types/sequelize/index.d.ts": {
+        "version": "ffc81c32523a10653952e46901f81bc96f832c00fd20b66a566a2e71d7a07fef",
+        "signature": "ffc81c32523a10653952e46901f81bc96f832c00fd20b66a566a2e71d7a07fef"
       },
       "./node_modules/@types/tesseract.js/index.d.ts": {
         "version": "53bee6e8177de1d433298a086fb96e765002187df9fa18d8037eac52ecc1af83",
@@ -612,7 +728,6 @@
       ],
       "allowSyntheticDefaultImports": false,
       "esModuleInterop": false,
-      "watch": true,
       "configFilePath": "./tsconfig.json"
     },
     "referencedMap": {
@@ -1321,23 +1436,23 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
-      "./node_modules/@types/puppeteer/errors.d.ts": [
+      "./node_modules/_@types_puppeteer@2.0.1@@types/puppeteer/errors.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
-      "./node_modules/@types/puppeteer/devicedescriptors.d.ts": [
+      "./node_modules/_@types_puppeteer@2.0.1@@types/puppeteer/devicedescriptors.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
-      "./node_modules/@types/puppeteer/index.d.ts": [
+      "./node_modules/_@types_puppeteer@2.0.1@@types/puppeteer/index.d.ts": [
         "./node_modules/@types/node/events.d.ts",
         "./node_modules/@types/node/child_process.d.ts",
-        "./node_modules/@types/puppeteer/errors.d.ts",
-        "./node_modules/@types/puppeteer/devicedescriptors.d.ts",
+        "./node_modules/_@types_puppeteer@2.0.1@@types/puppeteer/errors.d.ts",
+        "./node_modules/_@types_puppeteer@2.0.1@@types/puppeteer/devicedescriptors.d.ts",
         "./node_modules/@types/node/ts3.5/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
@@ -1364,8 +1479,8 @@
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
       "./src/app/browser/browsers.ts": [
-        "./node_modules/@types/puppeteer/index.d.ts",
-        "./node_modules/@types/puppeteer/devicedescriptors.d.ts",
+        "./node_modules/_@types_puppeteer@2.0.1@@types/puppeteer/index.d.ts",
+        "./node_modules/_@types_puppeteer@2.0.1@@types/puppeteer/devicedescriptors.d.ts",
         "./src/config.ts",
         "./src/app/static.ts",
         "./src/app/other/test.ts",
@@ -1739,11 +1854,51 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
+      "./node_modules/@types/cheerio/index.d.ts": [
+        "./node_modules/@types/node/ts3.5/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./src/app/functions/school/common.ts": [
+        "./node_modules/axios/index.d.ts",
+        "./node_modules/@types/cheerio/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./src/app/apis/school/login.ts": [
+        "./node_modules/@types/koa-router/index.d.ts",
+        "./src/app/validators/validators.ts",
+        "./src/app/functions/school/common.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./src/app/apis/update/update-message.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./src/app/apis/update/update.ts": [
+        "./node_modules/@types/koa-router/index.d.ts",
+        "./src/app/apis/update/update-message.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
       "./src/app/router.ts": [
         "./src/app/apis/paynet/getnetinfo.ts",
         "./src/app/apis/paynet/getpayimg.ts",
         "./src/app/apis/qutuo/loginqutuo.ts",
         "./src/app/apis/test/text.ts",
+        "./src/app/apis/school/login.ts",
+        "./src/app/apis/update/update.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1785,13 +1940,59 @@
       ],
       "./src/typings/index.d.ts": [
         "./node_modules/@types/koa/index.d.ts",
-        "./node_modules/@types/puppeteer/index.d.ts",
+        "./node_modules/_@types_puppeteer@2.0.1@@types/puppeteer/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
       "./src/typings/best-require/best-require.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/caseless/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/request/node_modules/form-data/index.d.ts": [
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/ts3.5/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/tough-cookie/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/request/index.d.ts": [
+        "./node_modules/@types/caseless/index.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/https.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/request/node_modules/form-data/index.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/tough-cookie/index.d.ts",
+        "./node_modules/@types/node/url.d.ts",
+        "./node_modules/@types/node/tls.d.ts",
+        "./node_modules/@types/node/ts3.5/index.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./src/typings/crawler/crawler.d.ts": [
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/request/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1812,6 +2013,21 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
+      "./node_modules/@types/chromedriver/index.d.ts": [
+        "./node_modules/@types/node/child_process.d.ts",
+        "./node_modules/@types/node/ts3.5/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/continuation-local-storage/index.d.ts": [
+        "./node_modules/@types/node/ts3.5/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
       "./node_modules/@types/jsonwebtoken/index.d.ts": [
         "./node_modules/@types/node/ts3.5/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
@@ -1819,7 +2035,7 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
-      "./node_modules/@types/mime-types/index.d.ts": [
+      "./node_modules/_@types_mime-types@2.1.0@@types/mime-types/index.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1827,6 +2043,145 @@
       ],
       "./node_modules/@types/require-directory/index.d.ts": [
         "./node_modules/@types/node/ts3.5/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/selenium-webdriver/http.d.ts": [
+        "./node_modules/@types/selenium-webdriver/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/selenium-webdriver/remote.d.ts": [
+        "./node_modules/@types/selenium-webdriver/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/selenium-webdriver/chrome.d.ts": [
+        "./node_modules/@types/selenium-webdriver/http.d.ts",
+        "./node_modules/@types/selenium-webdriver/index.d.ts",
+        "./node_modules/@types/selenium-webdriver/remote.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/selenium-webdriver/edge.d.ts": [
+        "./node_modules/@types/selenium-webdriver/index.d.ts",
+        "./node_modules/@types/selenium-webdriver/remote.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/selenium-webdriver/firefox.d.ts": [
+        "./node_modules/@types/selenium-webdriver/http.d.ts",
+        "./node_modules/@types/selenium-webdriver/index.d.ts",
+        "./node_modules/@types/selenium-webdriver/remote.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/selenium-webdriver/ie.d.ts": [
+        "./node_modules/@types/selenium-webdriver/index.d.ts",
+        "./node_modules/@types/selenium-webdriver/remote.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/selenium-webdriver/lib/by.d.ts": [
+        "./node_modules/@types/selenium-webdriver/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/selenium-webdriver/lib/symbols.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/selenium-webdriver/lib/capabilities.d.ts": [
+        "./node_modules/@types/selenium-webdriver/lib/symbols.d.ts",
+        "./node_modules/@types/selenium-webdriver/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/selenium-webdriver/lib/command.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/selenium-webdriver/lib/input.d.ts": [
+        "./node_modules/@types/selenium-webdriver/index.d.ts",
+        "./node_modules/@types/selenium-webdriver/lib/command.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/selenium-webdriver/lib/promise.d.ts": [
+        "./node_modules/@types/selenium-webdriver/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/selenium-webdriver/lib/logging.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/selenium-webdriver/lib/until.d.ts": [
+        "./node_modules/@types/selenium-webdriver/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/selenium-webdriver/safari.d.ts": [
+        "./node_modules/@types/selenium-webdriver/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/selenium-webdriver/index.d.ts": [
+        "./node_modules/@types/selenium-webdriver/chrome.d.ts",
+        "./node_modules/@types/selenium-webdriver/edge.d.ts",
+        "./node_modules/@types/selenium-webdriver/firefox.d.ts",
+        "./node_modules/@types/selenium-webdriver/ie.d.ts",
+        "./node_modules/@types/selenium-webdriver/lib/by.d.ts",
+        "./node_modules/@types/selenium-webdriver/lib/capabilities.d.ts",
+        "./node_modules/@types/selenium-webdriver/lib/command.d.ts",
+        "./node_modules/@types/selenium-webdriver/http.d.ts",
+        "./node_modules/@types/selenium-webdriver/lib/input.d.ts",
+        "./node_modules/@types/selenium-webdriver/lib/promise.d.ts",
+        "./node_modules/@types/selenium-webdriver/lib/logging.d.ts",
+        "./node_modules/@types/selenium-webdriver/lib/until.d.ts",
+        "./node_modules/@types/selenium-webdriver/safari.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/sequelize/index.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/bluebird/index.d.ts",
+        "./node_modules/@types/continuation-local-storage/index.d.ts",
+        "./node_modules/@types/validator/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -2583,23 +2938,23 @@
       "./src/middlewares/exception.ts": [
         "./node_modules/@types/koa/index.d.ts"
       ],
-      "./node_modules/@types/puppeteer/errors.d.ts": [
+      "./node_modules/_@types_puppeteer@2.0.1@@types/puppeteer/errors.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
-      "./node_modules/@types/puppeteer/devicedescriptors.d.ts": [
+      "./node_modules/_@types_puppeteer@2.0.1@@types/puppeteer/devicedescriptors.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
-      "./node_modules/@types/puppeteer/index.d.ts": [
+      "./node_modules/_@types_puppeteer@2.0.1@@types/puppeteer/index.d.ts": [
         "./node_modules/@types/node/events.d.ts",
         "./node_modules/@types/node/child_process.d.ts",
-        "./node_modules/@types/puppeteer/errors.d.ts",
-        "./node_modules/@types/puppeteer/devicedescriptors.d.ts",
+        "./node_modules/_@types_puppeteer@2.0.1@@types/puppeteer/errors.d.ts",
+        "./node_modules/_@types_puppeteer@2.0.1@@types/puppeteer/devicedescriptors.d.ts",
         "./node_modules/@types/node/ts3.5/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
@@ -2907,6 +3262,16 @@
       "./src/app/apis/test/text.ts": [
         "./node_modules/@types/koa-router/index.d.ts"
       ],
+      "./node_modules/@types/cheerio/index.d.ts": [
+        "./node_modules/@types/node/ts3.5/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./src/app/apis/school/login.ts": [
+        "./node_modules/@types/koa-router/index.d.ts"
+      ],
       "./src/core/init.ts": [
         "./node_modules/@types/koa/index.d.ts"
       ],
@@ -2919,6 +3284,52 @@
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
       "./src/typings/best-require/best-require.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/caseless/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/request/node_modules/form-data/index.d.ts": [
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/ts3.5/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/tough-cookie/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/request/index.d.ts": [
+        "./node_modules/@types/caseless/index.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/https.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/request/node_modules/form-data/index.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/tough-cookie/index.d.ts",
+        "./node_modules/@types/node/url.d.ts",
+        "./node_modules/@types/node/tls.d.ts",
+        "./node_modules/@types/node/ts3.5/index.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./src/typings/crawler/crawler.d.ts": [
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/request/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -2940,6 +3351,21 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
+      "./node_modules/@types/chromedriver/index.d.ts": [
+        "./node_modules/@types/node/child_process.d.ts",
+        "./node_modules/@types/node/ts3.5/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/continuation-local-storage/index.d.ts": [
+        "./node_modules/@types/node/ts3.5/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
       "./node_modules/@types/jsonwebtoken/index.d.ts": [
         "./node_modules/@types/node/ts3.5/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
@@ -2947,7 +3373,7 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
-      "./node_modules/@types/mime-types/index.d.ts": [
+      "./node_modules/_@types_mime-types@2.1.0@@types/mime-types/index.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -2961,12 +3387,154 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
+      "./node_modules/@types/selenium-webdriver/http.d.ts": [
+        "./node_modules/@types/selenium-webdriver/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/selenium-webdriver/remote.d.ts": [
+        "./node_modules/@types/selenium-webdriver/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/selenium-webdriver/chrome.d.ts": [
+        "./node_modules/@types/selenium-webdriver/http.d.ts",
+        "./node_modules/@types/selenium-webdriver/index.d.ts",
+        "./node_modules/@types/selenium-webdriver/remote.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/selenium-webdriver/edge.d.ts": [
+        "./node_modules/@types/selenium-webdriver/index.d.ts",
+        "./node_modules/@types/selenium-webdriver/remote.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/selenium-webdriver/firefox.d.ts": [
+        "./node_modules/@types/selenium-webdriver/http.d.ts",
+        "./node_modules/@types/selenium-webdriver/index.d.ts",
+        "./node_modules/@types/selenium-webdriver/remote.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/selenium-webdriver/ie.d.ts": [
+        "./node_modules/@types/selenium-webdriver/index.d.ts",
+        "./node_modules/@types/selenium-webdriver/remote.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/selenium-webdriver/lib/by.d.ts": [
+        "./node_modules/@types/selenium-webdriver/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/selenium-webdriver/lib/symbols.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/selenium-webdriver/lib/capabilities.d.ts": [
+        "./node_modules/@types/selenium-webdriver/lib/symbols.d.ts",
+        "./node_modules/@types/selenium-webdriver/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/selenium-webdriver/lib/command.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/selenium-webdriver/lib/input.d.ts": [
+        "./node_modules/@types/selenium-webdriver/index.d.ts",
+        "./node_modules/@types/selenium-webdriver/lib/command.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/selenium-webdriver/lib/promise.d.ts": [
+        "./node_modules/@types/selenium-webdriver/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/selenium-webdriver/lib/logging.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/selenium-webdriver/lib/until.d.ts": [
+        "./node_modules/@types/selenium-webdriver/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/selenium-webdriver/safari.d.ts": [
+        "./node_modules/@types/selenium-webdriver/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/selenium-webdriver/index.d.ts": [
+        "./node_modules/@types/selenium-webdriver/chrome.d.ts",
+        "./node_modules/@types/selenium-webdriver/edge.d.ts",
+        "./node_modules/@types/selenium-webdriver/firefox.d.ts",
+        "./node_modules/@types/selenium-webdriver/ie.d.ts",
+        "./node_modules/@types/selenium-webdriver/lib/by.d.ts",
+        "./node_modules/@types/selenium-webdriver/lib/capabilities.d.ts",
+        "./node_modules/@types/selenium-webdriver/lib/command.d.ts",
+        "./node_modules/@types/selenium-webdriver/http.d.ts",
+        "./node_modules/@types/selenium-webdriver/lib/input.d.ts",
+        "./node_modules/@types/selenium-webdriver/lib/promise.d.ts",
+        "./node_modules/@types/selenium-webdriver/lib/logging.d.ts",
+        "./node_modules/@types/selenium-webdriver/lib/until.d.ts",
+        "./node_modules/@types/selenium-webdriver/safari.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./node_modules/@types/sequelize/index.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/bluebird/index.d.ts",
+        "./node_modules/@types/continuation-local-storage/index.d.ts",
+        "./node_modules/@types/validator/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
       "./node_modules/@types/tesseract.js/index.d.ts": [
         "./node_modules/@types/node/ts3.5/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "./src/app/apis/update/update.ts": [
+        "./node_modules/@types/koa-router/index.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": []
