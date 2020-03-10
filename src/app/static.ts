@@ -6,3 +6,4 @@ export const urls = {
     QUTUO_LOGIN_SELECT: quTuoBaseUrl + '/searthSchool',
     GET_IMG_ASPX:'https://tyzf.gdut.edu.cn/zhifu/payAccept.aspx'
 }
+export const schoolOpening = '2020.3.2';

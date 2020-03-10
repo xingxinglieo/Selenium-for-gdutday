@@ -398,8 +398,8 @@
         "signature": "688569813a054fe56083a123a3ea32dcaa04d07719a1adca36c6387349fd6da2"
       },
       "./src/app/static.ts": {
-        "version": "8455da24c3c6d528374a3e8906f2fe7a81b945045bf458c68240a1cc38b325d3",
-        "signature": "90a22b9bf7cc12206bc5244476d2dcd127492ff51c7d7ebd4b20c02e7721e661"
+        "version": "bc154590f8fb5680d3ddc0cce76579732ef5dc3b14959340f2f4fc91f64c225a",
+        "signature": "c3e350da30f8c68c50929f230987af8f7b7e4cc27dfd0908a83e1e071b9380d2"
       },
       "./node_modules/axios/index.d.ts": {
         "version": "e7df7eb51c5090db4bdcdbf9efe053530dff0e33796f40b08b1a3be6c3a351d0",
@@ -553,8 +553,12 @@
         "version": "bfd8a23c0c8ce6f596ae8db0004d27bee6f1ce0c47725d7d78f240ed0856ed35",
         "signature": "0c11a55c7677ac9806b93ee691e494d9978c33f44612713465ca502d602790c4"
       },
+      "./src/app/apis/school/getschoolopening.ts": {
+        "version": "36ba7f8533f150a0f918bbb91f1c89a64363bf333112de89e53c128c35c5e46b",
+        "signature": "0c11a55c7677ac9806b93ee691e494d9978c33f44612713465ca502d602790c4"
+      },
       "./src/app/router.ts": {
-        "version": "de76370980542c817cbb341351ee3876a10b8f32ab3b4f454b30f64e6b6fceae",
+        "version": "851c305ef3b3cd6766d19695eb12ddcf9e7171b4625134f242038799c495ddb2",
         "signature": "9c82c27a653fd14b3f7ff82ed24a7c5039af98f64cbe550e05af487bdbd1b202"
       },
       "./src/core/init.ts": {
@@ -732,7 +736,6 @@
       ],
       "allowSyntheticDefaultImports": false,
       "esModuleInterop": false,
-      "watch": true,
       "configFilePath": "./tsconfig.json"
     },
     "referencedMap": {
@@ -1905,6 +1908,14 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
+      "./src/app/apis/school/getschoolopening.ts": [
+        "./node_modules/@types/koa-router/index.d.ts",
+        "./src/app/static.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.5/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.5/util.d.ts"
+      ],
       "./src/app/router.ts": [
         "./src/app/apis/paynet/getnetinfo.ts",
         "./src/app/apis/paynet/getpayimg.ts",
@@ -1912,6 +1923,7 @@
         "./src/app/apis/test/text.ts",
         "./src/app/apis/school/login.ts",
         "./src/app/apis/update/update.ts",
+        "./src/app/apis/school/getschoolopening.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.5/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -3292,6 +3304,9 @@
         "./node_modules/@types/node/ts3.5/util.d.ts"
       ],
       "./src/app/apis/update/update.ts": [
+        "./node_modules/@types/koa-router/index.d.ts"
+      ],
+      "./src/app/apis/school/getschoolopening.ts": [
         "./node_modules/@types/koa-router/index.d.ts"
       ],
       "./src/core/init.ts": [
